@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BA60D83E583AED39}Configs/Editor/PlaceableEntities/Objects/Structures_Signs.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

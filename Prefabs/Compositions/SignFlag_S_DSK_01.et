@@ -1,0 +1,29 @@
+GenericEntity : "{43B099F05634173B}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/SignRectangle_01_140x100_base.et" {
+ ID "50D67C36F4200F97"
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{61ED22FE07EAEE59}" {
+     SourceMaterial "SignRectangle_01_140x100"
+     AssignedMaterial "{EC1B8E75992EBF5E}Assets/Props/Fabric/Flags/Data/Flag_1_2_DSK.emat"
+    }
+    MaterialAssignClass "{61ED22FE07EAEFB4}" {
+     SourceMaterial "SignRectangle_01_140x100_MLOD"
+     AssignedMaterial "{EC1B8E75992EBF5E}Assets/Props/Fabric/Flags/Data/Flag_1_2_DSK.emat"
+    }
+   }
+  }
+  RigidBody "{54969A6AA8773997}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{58D4C8DAFF1CE2A0}" {
+     m_ModelPrefabs {
+      "{C950E3BC4D55850A}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Dst/SignRectangle_01_140x100_dst_02_USSR.et" "{34567B212E3EAD9C}Assets/Structures/Signs/Military/Dst/SignRectangle_01_140x100_dst_03.xob"
+     }
+    }
+   }
+  }
+ }
+}

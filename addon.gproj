@@ -1,0 +1,8 @@
+GameProject {
+ ID "DSKFlag"
+ GUID "61ED22F5434DD767"
+ TITLE "DSK_Flag"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

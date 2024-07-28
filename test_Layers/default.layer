@@ -1,0 +1,13 @@
+GenericEntity : "{6B127A91C658BE17}PrefabsEditable/Auto/Structures/Signs/Military/E_FlagPole_02_V1_DSK.et" {
+ components {
+  SCR_EditableEntityComponent "{61ED22E08AFE7F0D}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon ""
+   }
+  }
+ }
+ coords 133.883 1 131.561
+}
+GenericEntity : "{C1083BA04D43F624}PrefabsEditable/Auto/Structures/Signs/Military/E_SignFlag_DSK_01.et" {
+ coords 132.097 1.27 124.757
+}

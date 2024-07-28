@@ -1,0 +1,21 @@
+GenericEntity : "{90B7CEB4C665B1E2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1.et" {
+ ID "50C6D20663830070"
+ components {
+  RigidBody "{5472A771D2979EF1}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{EC1B8E75992EBF5E}Assets/Props/Fabric/Flags/Data/Flag_1_2_DSK.emat"
+  }
+  SCR_SlotCompositionComponent "{61ED22E61A921272}" {
+   m_bOrientChildrenToTerrain 0
+  }
+  SlotManagerComponent "{55DAE04E55ECE7FA}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Prefab "{3B6F5045047140C7}Prefabs/Props/Fabric/Flags/Flag_1_2_DSK.et"
+    }
+   }
+  }
+ }
+}
