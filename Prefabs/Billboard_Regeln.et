@@ -12,6 +12,7 @@ SCR_DestructibleBuildingEntity {
   SCR_EditableEntityComponent "{5EEB5136AE3B610D}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5EEC145BEACF666C}" {
     Name "DSK Billboard Regeln"
+    Description "DSK Billboard Regeln"
     m_Image "{C9B0CF5A532310D0}Prefabs/Data/DSK_Billboard.edds"
     m_aAuthoredLabels {
      1 1001

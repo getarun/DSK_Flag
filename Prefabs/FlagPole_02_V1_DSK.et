@@ -3,8 +3,8 @@ SCR_DestructibleBuildingEntity : "{160E4E4110803F26}Prefabs/Structures/Military/
  components {
   SCR_EditableEntityComponent "{61ED22E08AFE7F0D}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "DSK Flag"
-    Description "Flag of DSK"
+    Name "ge"
+    Description "DSK Flagge"
     m_Image "{BCA7581B0F87F55D}dsk_flag_preview.edds"
     m_sFaction "US"
     m_aAuthoredLabels {

@@ -12,6 +12,7 @@ SCR_DestructibleBuildingEntity : "{1E261E422E044527}Prefabs/Billboard_Regeln.et"
   SCR_EditableEntityComponent "{5EEB5136AE3B610D}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5EEC145BEACF666C}" {
     Name "DSK Billboard Funk"
+    Description "DSK Billboard Funk"
     m_Image "{F720D92F9863EBF8}DSK_Billboard_Funk_preview.edds"
    }
   }
