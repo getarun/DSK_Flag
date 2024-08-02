@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{E8B7E430CD5729C2}textures/Basewoodpacked.edds"
+ NMOMap "{D5F0A3CE1E516335}textures/normwoodpacked.edds"
+}

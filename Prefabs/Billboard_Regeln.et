@@ -1,0 +1,22 @@
+SCR_DestructibleBuildingEntity {
+ ID "5EE96ED10E5BE912"
+ components {
+  MeshObject "{5EE96ED757B34AA3}" {
+   Materials {
+    MaterialAssignClass "{62049EEE0FBB830A}" {
+     SourceMaterial "INST_BillboardAdvert"
+     AssignedMaterial "{C44F060E75993C3F}Prefabs/Data/INST_BillboardAdvert.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{5EEB5136AE3B610D}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5EEC145BEACF666C}" {
+    Name "DSK Billboard Regeln"
+    m_Image "{C9B0CF5A532310D0}Prefabs/Data/DSK_Billboard.edds"
+    m_aAuthoredLabels {
+     1 1001
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+GenericEntity : "{6207BADAFE77718D}Prefabs/Props/Commercial/Posters/PosterSingle_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0E82F324DE42E2EF}Assets/Props/Commercial/Posters/PosterSingle_A0.xob"
+   Materials {
+    MaterialAssignClass "{6205537D00F4391F}" {
+     SourceMaterial "Poster_A0_mat"
+     AssignedMaterial "{DF438BAF0CDDD6E4}Prefabs/Data/Poster_A0_Rules.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{6205537EDE362FFB}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6205537EEE019A2B}" {
+    Name "Billboard"
+    m_Image "{C9B0CF5A532310D0}Prefabs/Data/DSK_Billboard.edds"
+    m_aAuthoredLabels {
+     1 1001 13
+    }
+    m_aAutoLabels {
+     122
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angleZ -90
+}

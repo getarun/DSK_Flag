@@ -1,0 +1,14 @@
+SCR_DestructibleBuildingEntity : "{D691BDAD95AEA5DA}PrefabLibrary/Prefab/Billboard.et" {
+ ID "5EE96EEA7A820EC9"
+ components {
+  MeshObject "{5EE96ED757B34AA3}" {
+   Materials {
+    MaterialAssignClass "{62049EE3FB6A22B6}" {
+     SourceMaterial "INST_BillboardAdvert"
+     AssignedMaterial "{C44F060E75993C3F}Prefabs/Data/INST_BillboardAdvert.emat"
+    }
+   }
+  }
+ }
+ placement none
+}

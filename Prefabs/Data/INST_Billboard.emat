@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{AA8086FF63FD317C}textures/basepacked.edds"
+ NMOMap "{4A4F8E4999FB6E51}textures/normpacked.edds"
+}
