@@ -1,0 +1,43 @@
+GenericEntity : "{DCBC472CDA3EA9B2}Prefabs/Props/Civilian/WallMap_01.et" {
+ ID "527C88289D9C54C0"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6214E55496AA5456}" {
+     SourceMaterial "Map_01_Map"
+     AssignedMaterial "{1178AF9196D380E0}Prefabs/Data/Poster_A0_Bann.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{58AAE805A2532530}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "DSK Map Bann"
+    Description "DSK Map Bann"
+    m_Image "{9ED6CBD5B82947EA}DSK_Map_Bann_preview.edds"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     1 121 1001
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{58AAE805A25265FE}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6214E554F2AA5489}" {
+     m_iParentID -1
+     m_Mesh "{D0C561ECDD48AC28}Assets/Props/Civilian/WallMap_01/WallMap_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{58AAE805A2533936}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
+ }
+ angleY 0
+}

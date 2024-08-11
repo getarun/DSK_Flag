@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{67C078A3EA9244F5}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/SignFlag_DSK.et"
+ Name "{B330DEBC933F98DB}Prefabs/E_DSK_Sign_Kommandostab.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

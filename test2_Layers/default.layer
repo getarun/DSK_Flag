@@ -1,0 +1,8 @@
+SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+ coords 7352.421 170 4222.544
+ angleY 90.763
+}
+SCR_DestructibleBuildingEntity : "{F0090D0DA2A256C0}Prefabs/Billboard_Funk.et" {
+ coords 7341.614 0 4223.081
+ angleY -86.216
+}

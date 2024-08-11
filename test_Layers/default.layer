@@ -1,13 +1,53 @@
-GenericEntity : "{6B127A91C658BE17}PrefabsEditable/Auto/Structures/Signs/Military/E_FlagPole_02_V1_DSK.et" {
- components {
-  SCR_EditableEntityComponent "{61ED22E08AFE7F0D}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Icon ""
-   }
-  }
- }
- coords 133.883 1 131.561
+SCR_FiringRangeTarget : "{52601275BAC9EF64}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_30s.et" {
+ coords 145.665 1 91.415
 }
-GenericEntity : "{C1083BA04D43F624}PrefabsEditable/Auto/Structures/Signs/Military/E_SignFlag_DSK_01.et" {
- coords 132.097 1.27 124.757
+GameEntity : "{608A886A670AA1BA}Prefabs/Characters/Armbands/DSK_Armband_MP.et" {
+ coords 144.906 2.059 96.801
+}
+GameEntity : "{676F9B07B13BE357}Prefabs/Items/Equipment/Patches/DSK_Patch.et" {
+ coords 144.729 2.014 97.191
+ angleX 35.047
+}
+GenericEntity : "{6B127A91C658BE17}PrefabsEditable/E_FlagPole_02_V1_DSK.et" {
+ coords 126.263 1 93.636
+}
+SCR_DestructibleBuildingEntity : "{7F89E71D3DA19975}PrefabsEditable/E_DSK_Billboard.et" {
+ coords 135.474 1 93.412
+}
+GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+ coords 144.682 1 97.145
+}
+GenericEntity : "{9CFEE3EAA762FEC0}Prefabs/WallMap_01_Bann.et" {
+ coords 141.765 1 95.218
+}
+GenericEntity : "{A74EFE52B77ADA53}PrefabsEditable/E_DSK_Sign_Yuri.et" {
+ coords 136.729 1 90.585
+}
+GenericEntity : "{AAB41F3CE4965A76}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_US_02.et" {
+ coords 154.276 1 97.743
+}
+GenericEntity : "{B330DEBC933F98DB}Prefabs/E_DSK_Sign_Kommandostab.et" {
+ coords 139.826 1 93.189
+}
+SCR_DestructibleBuildingEntity : "{B5DCEB236A15EF40}Prefabs/E_Billboard_Bann.et" {
+ coords 141.79 0 93.453
+}
+GenericEntity : "{BBD113AFB52C2BC6}Prefabs/WallMap_01_Funk.et" {
+ coords 148.117 1 95.478
+}
+GenericEntity : "{C1083BA04D43F624}Prefabs/E_SignFlag_DSK_01.et" {
+ coords 138.676 1 92.123
+}
+GenericEntity : "{C6E02BDC5852D558}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_US_01.et" {
+ coords 133.797 1 97.836
+}
+GenericEntity : "{CD426132A94628B8}Prefabs/Props/Commercial/Posters/PosterSingle_A0_Rules.et" {
+ coords 135.359 1.789 95.452
+ angleZ 90.349
+}
+GameEntity : "{E68BD8B6E0F77B26}Prefabs/Characters/Armbands/DSK_Armband_RP.et" {
+ coords 144.579 2.061 96.915
+}
+SCR_DestructibleBuildingEntity : "{F0090D0DA2A256C0}Prefabs/Billboard_Funk.et" {
+ coords 147.965 0 93.676
 }

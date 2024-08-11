@@ -1,0 +1,20 @@
+SCR_DestructibleBuildingEntity : "{1E261E422E044527}Prefabs/Billboard_Regeln.et" {
+ ID "5EE96ED10E5BE912"
+ components {
+  MeshObject "{5EE96ED757B34AA3}" {
+   Materials {
+    MaterialAssignClass "{62049EEE0FBB830A}" {
+     SourceMaterial "INST_BillboardAdvert"
+     AssignedMaterial "{1E59DAD28B07B76D}Prefabs/Data/INST_BillboardBann.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{5EEB5136AE3B610D}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5EEC145BEACF666C}" {
+    Name "DSK Billboard Bann"
+    Description "DSK Billboard Bann"
+    m_Image "{FDEE8EC3F9D98AEB}DSK_Billboard_Bann_preview.edds"
+   }
+  }
+ }
+}

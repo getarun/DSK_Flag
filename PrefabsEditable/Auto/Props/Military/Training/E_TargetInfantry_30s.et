@@ -1,0 +1,35 @@
+SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+ ID "51A46E3C51E9F749"
+ components {
+  SCR_EditableEntityComponent "{60D0E22B59BAF022}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "DSK_TargetInfantry_30s"
+    Description "DSK_TargetInfantry_30s"
+    m_Image "{889351A24B2CF1CF}UI/Textures/EditorPreviews/Auto/Props/Military/Training/E_TargetInfantry_01.edds"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     108 1 121 1001
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{60D0E22B59BACA7E}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{620AA254A85F444A}" {
+     m_iParentID -1
+     m_Mesh "{74A9218974C65D05}Assets/Props/Military/Training/TargetInfantry_01/TargetInfantry_01.xob"
+     m_Flags EDITABLE
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ angleY 0
+ placement none
+ m_fTimeInFoldedPosition 30
+}
