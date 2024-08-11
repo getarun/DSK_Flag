@@ -1,8 +1,8 @@
 GameEntity : "{128D6438B38DB175}Prefabs/Items/Equipment/Patches/DSK_Patch_PGren.et" {
- coords 144.728 2.016 97.423
+ coords 144.605 2.026 97.423
 }
 GameEntity : "{24C2A786D727F8E1}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky.et" {
- coords 144.816 2.016 97.42
+ coords 144.693 2.026 97.42
 }
 SCR_FiringRangeTarget : "{52601275BAC9EF64}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_30s.et" {
  coords 145.665 1 91.415
@@ -13,13 +13,13 @@ GameEntity : "{608A886A670AA1BA}Prefabs/Characters/Armbands/DSK_Armband_MP.et" {
  angleZ 66.91
 }
 GameEntity : "{676F9B07B13BE357}Prefabs/Items/Equipment/Patches/DSK_Patch.et" {
- coords 145.023 2.019 97.521
+ coords 144.9 2.029 97.521
 }
 GenericEntity : "{6B127A91C658BE17}PrefabsEditable/E_FlagPole_02_V1_DSK.et" {
  coords 126.263 1 93.636
 }
 GameEntity : "{7D2C5EB25786D8B0}Prefabs/Items/Equipment/Patches/DSK_Patch_Jaeger_2.et" {
- coords 144.903 2.016 97.518
+ coords 144.78 2.026 97.518
 }
 SCR_DestructibleBuildingEntity : "{7F89E71D3DA19975}PrefabsEditable/E_DSK_Billboard.et" {
  coords 135.474 1 93.412
@@ -37,7 +37,7 @@ GenericEntity : "{AAB41F3CE4965A76}Prefabs/Compositions/Misc/SubCompositions/Sto
  coords 154.276 1 97.743
 }
 GameEntity : "{AF0FA1CAEAC27000}Prefabs/Items/Equipment/Patches/DSK_Patch_Jaeger.et" {
- coords 144.904 2.016 97.424
+ coords 144.781 2.026 97.424
 }
 GenericEntity : "{B330DEBC933F98DB}Prefabs/E_DSK_Sign_Kommandostab.et" {
  coords 139.826 1 93.189
@@ -49,7 +49,7 @@ GenericEntity : "{BBD113AFB52C2BC6}Prefabs/WallMap_01_Funk.et" {
  coords 148.117 1 95.478
 }
 GameEntity : "{BEA08F3EDC2D6C06}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky_2.et" {
- coords 144.815 2.016 97.518
+ coords 144.692 2.026 97.518
 }
 GenericEntity : "{C1083BA04D43F624}Prefabs/E_SignFlag_DSK_01.et" {
  coords 138.676 1 92.123
@@ -71,5 +71,5 @@ SCR_DestructibleBuildingEntity : "{F0090D0DA2A256C0}Prefabs/Billboard_Funk.et" {
  coords 147.965 0 93.676
 }
 GameEntity : "{F4DEA5E6B51A40F5}Prefabs/Items/Equipment/Patches/DSK_Patch_PGren_2.et" {
- coords 144.728 2.016 97.518
+ coords 144.605 2.026 97.518
 }
