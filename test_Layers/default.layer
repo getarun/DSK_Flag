@@ -1,3 +1,6 @@
+GameEntity : "{0563D53C5DF20C1F}Prefabs/Items/Equipment/Patches/DSK_Patch_FschJaeger.et" {
+ coords 144.512 2.029 97.427
+}
 GameEntity : "{128D6438B38DB175}Prefabs/Items/Equipment/Patches/DSK_Patch_PGren.et" {
  coords 144.605 2.026 97.423
 }
@@ -26,6 +29,9 @@ SCR_DestructibleBuildingEntity : "{7F89E71D3DA19975}PrefabsEditable/E_DSK_Billbo
 }
 GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
  coords 144.682 1 97.145
+}
+GameEntity : "{9634686FC8D4440C}Prefabs/Items/Equipment/Patches/DSK_Patch_FschJaeger_2.et" {
+ coords 144.512 2.029 97.519
 }
 GenericEntity : "{9CFEE3EAA762FEC0}Prefabs/WallMap_01_Bann.et" {
  coords 141.765 1 95.218
