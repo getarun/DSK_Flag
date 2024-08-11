@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4E0CDDB2C0285CAA}Assets/Characters/Patches/data/DSK_patch_Husky.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

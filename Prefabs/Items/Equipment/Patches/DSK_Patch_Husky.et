@@ -1,0 +1,30 @@
+GameEntity : "{FEDC7DA627D89A65}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Reflective.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "DSK Patch Husky 1"
+     Description "DSK Patch Husky 1"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{77A661D8D6DF0C14}Assets/Characters/Patches/rhs_patch_cat.xob"
+   Materials {
+    MaterialAssignClass "{6216FA360F421B8D}" {
+     SourceMaterial "MATERIAL_NONE"
+     AssignedMaterial "{4E0CDDB2C0285CAA}Assets/Characters/Patches/data/DSK_patch_Husky.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{DC5B5909BAA5F50D}Assets/Characters/Patches/data/patch_cat_blue.emat"
+   }
+   ItemMaterialsOverride {
+    "{4E0CDDB2C0285CAA}Assets/Characters/Patches/data/DSK_patch_Husky.emat"
+   }
+  }
+ }
+}
