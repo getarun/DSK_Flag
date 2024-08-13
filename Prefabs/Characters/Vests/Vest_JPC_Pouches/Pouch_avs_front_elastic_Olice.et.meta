@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{62C03DF911B6EDBC}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_elastic_Olice.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

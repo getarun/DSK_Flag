@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 1 0.753 0.474 1
+ BCRMap "{5517EA7F2DA8344B}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/radio_low_radio_BCR.edds"
+ NormalPower 0.574
+ NMOMap "{6DCF51EDF4DF66D5}Assets/Characters/Vests/Vest_PCGen_III_Pouches/Data/radio_low_radio_NMO.edds"
+}

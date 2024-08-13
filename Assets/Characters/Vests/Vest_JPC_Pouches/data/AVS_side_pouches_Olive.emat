@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.687 0.687 0.687 1
+ BCRMap "{9395425A14C76EB5}DSK_AVS_side_olive_1.5.1.edds"
+ NMOMap "{DD94CDEE68C8D93F}Assets/Characters/Vests/Vest_JPC_Pouches/data/AVS_side_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{28C26A0EB1BF44BA}Assets/Characters/Vests/Vest_JPC_Pouches/data/AVS_side_pouches_Olive.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

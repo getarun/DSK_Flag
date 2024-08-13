@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{201AAEDE87B26845}Assets/Characters/Vests/Vest_JPC/data/jpc_placard_olive.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,21 @@
+GenericEntity : "{4FD233CEA1B85F8A}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_base.et" {
+ ID "50E0B40D7407B664"
+ components {
+  MeshObject "{51EE72201CEF8651}" {
+   Materials {
+    MaterialAssignClass "{621AF0A15A6EB251}" {
+     SourceMaterial "jpc_placard"
+     AssignedMaterial "{201AAEDE87B26845}Assets/Characters/Vests/Vest_JPC/data/jpc_placard_olive.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5242D72632990471}" {
+   WornMaterialsOverride {
+    "{13DBF9B91265D9A7}Assets/Characters/Vests/Vest_JPC_Pouches/data/AVS_front_pouches_Olive.emat"
+   }
+   ItemMaterialsOverride {
+    "{13DBF9B91265D9A7}Assets/Characters/Vests/Vest_JPC_Pouches/data/AVS_front_pouches_Olive.emat"
+   }
+  }
+ }
+}

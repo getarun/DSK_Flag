@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.687 0.687 0.687 1
+ BCRMap "{28CEB9F6EAF785F3}DSK_JPC_plackard_Olive_1.2.1_1.3.1.edds"
+ NMOMap "{ADBE5ECBAEB93A56}Assets/Characters/Vests/Vest_JPC/data/JPC_placard_NMO.edds"
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{C1995C04EFFFE983}DSK_JPC_Olive.edds"
+ NMOMap "{01255B38B6DBC178}Assets/Characters/Vests/Vest_JPC/data/JPC_NMO.edds"
+}
