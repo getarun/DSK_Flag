@@ -1,0 +1,46 @@
+GenericEntity : "{0F4F2F8A1BB4766F}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/SignFlag_USSR_01.et" {
+ ID "50D67C36F4200F97"
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{567878E2F910AAD5}" {
+     SourceMaterial "SignRectangle_01_140x100"
+     AssignedMaterial "{1905457079158780}Assets/Structures/Signs/Military/Data/DSK_Sign_Kommandostab.emat"
+    }
+    MaterialAssignClass "{567878E2F910AAF6}" {
+     SourceMaterial "SignRectangle_01_140x100_MLOD"
+     AssignedMaterial "{EC1B8E75992EBF5E}Assets/Props/Fabric/Flags/Data/Flag_1_2_DSK.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{5E588CA3E9C22B6B}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "DSK Sign Kommandostab"
+    m_Image "{43FE0B54EBCD90D6}DSK_sign_Kommandostab_preview.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 112 1 121 1001
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{5E588CA3E9C19342}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{622E87E27C8E919F}" {
+     m_iParentID -1
+     m_Mesh "{3C138FBF4F83E7C7}Assets/Structures/Signs/Military/SignRectangle_01_140x100.xob"
+     m_Flags 257
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

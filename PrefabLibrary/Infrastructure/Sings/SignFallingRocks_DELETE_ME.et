@@ -1,9 +1,0 @@
-GenericEntity : "{D2EB3379CBCB9B48}Prefabs/Structures/Signs/Warnings/SignFallingRocks_01_pole.et" {
- ID "50AA7AC5F20F3DA3"
- editorData {
-  RandomizationEditorData "{621610C5A966AE9A}" {
-   randomPitchAngle 2
-   randomRollAngle 2
-  }
- }
-}

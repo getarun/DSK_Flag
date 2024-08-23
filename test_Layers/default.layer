@@ -7,6 +7,9 @@ GameEntity : "{128D6438B38DB175}Prefabs/Items/Equipment/Patches/DSK_Patch_PGren.
 GameEntity : "{24C2A786D727F8E1}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky.et" {
  coords 144.693 2.026 97.42
 }
+GameEntity : "{2B4244CDFFEAD9C9}Prefabs/Items/Equipment/Patches/DSK_Patch_Square.et" {
+ coords 144.304 2.06 97.505
+}
 SCR_FiringRangeTarget : "{52601275BAC9EF64}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_30s.et" {
  coords 145.665 1 91.415
 }
