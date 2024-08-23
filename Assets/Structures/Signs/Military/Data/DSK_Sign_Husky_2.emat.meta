@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3F2C9D07D85BBE36}Assets/Structures/Signs/Military/Data/DSK_Sign_Husky_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

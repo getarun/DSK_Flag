@@ -5,13 +5,17 @@ GenericEntity : "{0F4F2F8A1BB4766F}Prefabs/Structures/Signs/Military/SignRectang
    Materials {
     MaterialAssignClass "{567878E2F910AAD5}" {
      SourceMaterial "SignRectangle_01_140x100"
-     AssignedMaterial "{104D1CC8B478242E}Assets/Structures/Signs/Military/Data/DSK_Sign_Husky.emat"
+     AssignedMaterial "{7DA7921FA03A2FA4}Assets/Structures/Signs/Military/Data/DSK_Sign_Jaeger.emat"
+    }
+    MaterialAssignClass "{567878E2F910AAF6}" {
+     SourceMaterial "SignRectangle_01_140x100_MLOD"
+     AssignedMaterial "{6670C88573B0FB04}Assets/Structures/Signs/Military/Data/SignRectangle_01_140x100_USSR_MLOD.emat"
     }
    }
   }
   SCR_EditableEntityComponent "{5E588CA3E9C22B6B}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "DSK Sign Husky"
+    Name "DSK Sign Jaeger"
     m_Image "{43FE0B54EBCD90D6}DSK_sign_Kommandostab_preview.edds"
     m_sFaction "US"
     m_aAuthoredLabels {
@@ -25,7 +29,7 @@ GenericEntity : "{0F4F2F8A1BB4766F}Prefabs/Structures/Signs/Military/SignRectang
   SCR_PreviewEntityComponent "{5E588CA3E9C19342}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 0
    m_aEntries {
-    SCR_BasePreviewEntry "{622E87E27C8E919F}" {
+    SCR_BasePreviewEntry "{622E9AE1AC2B9134}" {
      m_iParentID -1
      m_Mesh "{3C138FBF4F83E7C7}Assets/Structures/Signs/Military/SignRectangle_01_140x100.xob"
      m_Flags 257
