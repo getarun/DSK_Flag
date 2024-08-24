@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{7A30A7248B4FEB13}DSK_IIFS_BL_1.1.1.edds"
+ NMOMap "{BA8D3F16B3721461}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/Backpack_IIFS_FieldPack_1_NMO.edds"
+}

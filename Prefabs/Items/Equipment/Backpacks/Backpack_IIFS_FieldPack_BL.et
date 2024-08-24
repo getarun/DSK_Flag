@@ -1,0 +1,67 @@
+GenericEntity : "{09D6A1C9543E4A95}Prefabs/Items/Core/Backpack_Base.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{582D5ED9889AB099}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Backpack_IIFS_FieldPack_item.xob"
+   Materials {
+    MaterialAssignClass "{62308E10435E0DFC}" {
+     SourceMaterial "backpackIIFSM1"
+     AssignedMaterial "{7C9CA88A4F23D003}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/backpackIIFSM1_BL.emat"
+    }
+    MaterialAssignClass "{62308E10435E0DD6}" {
+     SourceMaterial "backpackIIFSM2"
+     AssignedMaterial "{7282ECC272D4DFD9}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/backpackIIFSM2_BL.emat"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "IIFS Black"
+     Description "IIFS Black"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 3.63
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 25001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD2B54658EC}" {
+      CameraOrbitAngles 25 -25 180
+     }
+    }
+   }
+   UseCapacityCoefficient 0
+   CapacityCoefficient 1.26
+   MaxCumulativeVolume 15000
+   MaxItemSize 25 25 25
+   m_fMaxWeight 40
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornModel "{19D524546D004762}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Backpack_IIFS_FieldPack.xob"
+   WornMaterialsOverride {
+    "{7C9CA88A4F23D003}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/backpackIIFSM1_BL.emat" "{7282ECC272D4DFD9}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/backpackIIFSM2_BL.emat"
+   }
+   ItemModel "{582D5ED9889AB099}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Backpack_IIFS_FieldPack_item.xob"
+   ItemMaterialsOverride {
+    "{7C9CA88A4F23D003}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/backpackIIFSM1_BL.emat" "{7282ECC272D4DFD9}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/backpackIIFSM2_BL.emat"
+   }
+   SoundInt 830
+   DeflatedModel "{279D39272DDDA525}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Backpack_IIFS_FieldPack_Inflated.xob"
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{62308E096190DB0A}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{511E9C6ADE70F786}" {
+   ActionContexts {
+    UserActionContext "{511E9C6ADE70F788}" {
+     Position PointInfo "{511E9C6ADE70F78D}" {
+      Offset 0 0.2985 0
+     }
+    }
+   }
+  }
+ }
+}

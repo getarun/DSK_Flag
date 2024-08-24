@@ -10,8 +10,22 @@ GameEntity : "{24C2A786D727F8E1}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky.
 GameEntity : "{2B4244CDFFEAD9C9}Prefabs/Items/Equipment/Patches/DSK_Patch_Square.et" {
  coords 144.304 2.06 97.505
 }
+GenericEntity : "{51CB13D927A9D6B3}Prefabs/E_DSK_Sign_PGren.et" {
+ coords 141.037 1 98.407
+}
 SCR_FiringRangeTarget : "{52601275BAC9EF64}PrefabsEditable/Auto/Props/Military/Training/E_TargetInfantry_30s.et" {
  coords 145.665 1 91.415
+}
+GenericEntity : "{5EA067323B7DD598}Prefabs/E_DSK_Sign_FSchJaeger.et" {
+ coords 148.563 1 98.219
+}
+$grp GenericEntity : "{5F8D5493DC8DB3FE}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack_BL.et" {
+ {
+  coords 144.946 1 99.579
+ }
+ {
+  coords 144.16 1 99.532
+ }
 }
 GameEntity : "{608A886A670AA1BA}Prefabs/Characters/Armbands/DSK_Armband_MP.et" {
  coords 144.906 2.059 97.076
@@ -20,6 +34,9 @@ GameEntity : "{608A886A670AA1BA}Prefabs/Characters/Armbands/DSK_Armband_MP.et" {
 }
 GameEntity : "{676F9B07B13BE357}Prefabs/Items/Equipment/Patches/DSK_Patch.et" {
  coords 144.9 2.029 97.521
+}
+GenericEntity : "{6784D06743039F27}Prefabs/E_DSK_Sign_Husky.et" {
+ coords 146.769 1 98.27
 }
 GenericEntity : "{6B127A91C658BE17}PrefabsEditable/E_FlagPole_02_V1_DSK.et" {
  coords 126.263 1 93.636
@@ -40,7 +57,7 @@ GenericEntity : "{9CFEE3EAA762FEC0}Prefabs/WallMap_01_Bann.et" {
  coords 141.765 1 95.218
 }
 GenericEntity : "{A74EFE52B77ADA53}PrefabsEditable/E_DSK_Sign_Yuri.et" {
- coords 136.729 1 90.585
+ coords 144.131 1 90.585
 }
 GenericEntity : "{AAB41F3CE4965A76}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_US_02.et" {
  coords 154.276 1 97.743
@@ -78,6 +95,9 @@ GameEntity : "{E68BD8B6E0F77B26}Prefabs/Characters/Armbands/DSK_Armband_RP.et" {
 }
 SCR_DestructibleBuildingEntity : "{F0090D0DA2A256C0}Prefabs/Billboard_Funk.et" {
  coords 147.965 0 93.676
+}
+GenericEntity : "{F46C6077DEF7CC9A}Prefabs/E_DSK_Sign_Jaeger.et" {
+ coords 143.145 1 98.418
 }
 GameEntity : "{F4DEA5E6B51A40F5}Prefabs/Items/Equipment/Patches/DSK_Patch_PGren_2.et" {
  coords 144.605 2.026 97.518

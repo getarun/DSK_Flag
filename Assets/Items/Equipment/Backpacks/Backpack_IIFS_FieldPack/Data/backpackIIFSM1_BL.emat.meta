@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7C9CA88A4F23D003}Assets/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack/Data/backpackIIFSM1_BL.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
