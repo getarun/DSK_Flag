@@ -1,0 +1,30 @@
+GameEntity : "{FEDC7DA627D89A65}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Reflective.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "DSK Patch Granit Square 2"
+     Description "DSK Patch Granit Square 2"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{0AA9622580BE8F2C}Prefabs/Items/Equipment/Patches/granit_patch.xob"
+   Materials {
+    MaterialAssignClass "{6227579774556364}" {
+     SourceMaterial "Granit"
+     AssignedMaterial "{A1020787E0391592}Prefabs/Items/Equipment/Patches/Data/Granit_Square.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{DC5B5909BAA5F50D}Assets/Characters/Patches/data/patch_cat_blue.emat"
+   }
+   ItemMaterialsOverride {
+    "{A1020787E0391592}Prefabs/Items/Equipment/Patches/Data/Granit_Square.emat"
+   }
+  }
+ }
+}

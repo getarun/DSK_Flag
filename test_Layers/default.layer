@@ -7,8 +7,11 @@ GameEntity : "{128D6438B38DB175}Prefabs/Items/Equipment/Patches/DSK_Patch_PGren.
 GameEntity : "{24C2A786D727F8E1}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky.et" {
  coords 144.693 2.026 97.42
 }
-GameEntity : "{2B4244CDFFEAD9C9}Prefabs/Items/Equipment/Patches/DSK_Patch_Square.et" {
- coords 144.304 2.06 97.505
+GameEntity : "{2B4244CDFFEAD9C9}Prefabs/Items/Equipment/Patches/DSK_Patch_Granit_Square_2.et" {
+ coords 144.415 2.06 97.355
+}
+GameEntity : "{332D62DF478A913E}Prefabs/Items/Equipment/Patches/DSK_Patch_Granit.et" {
+ coords 144.415 2.026 97.431
 }
 GenericEntity : "{51CB13D927A9D6B3}Prefabs/E_DSK_Sign_PGren.et" {
  coords 141.037 1 98.407
@@ -38,6 +41,9 @@ GameEntity : "{676F9B07B13BE357}Prefabs/Items/Equipment/Patches/DSK_Patch.et" {
 GenericEntity : "{6784D06743039F27}Prefabs/E_DSK_Sign_Husky.et" {
  coords 146.769 1 98.27
 }
+GenericEntity : "{684EA36273BF2DA4}Prefabs/E_DSK_Sign_Granit.et" {
+ coords 139.22 0.848 98.123
+}
 GenericEntity : "{6B127A91C658BE17}PrefabsEditable/E_FlagPole_02_V1_DSK.et" {
  coords 126.263 1 93.636
 }
@@ -54,7 +60,10 @@ GameEntity : "{9634686FC8D4440C}Prefabs/Items/Equipment/Patches/DSK_Patch_FschJa
  coords 144.512 2.029 97.519
 }
 GenericEntity : "{9CFEE3EAA762FEC0}Prefabs/WallMap_01_Bann.et" {
- coords 141.765 1 95.218
+ coords 142.62 2.433 95.218
+}
+GenericEntity : "{9DAA235F0A979B53}Prefabs/WallMap_01_Rules_RP.et" {
+ coords 144.304 1.835 92.331
 }
 GenericEntity : "{A74EFE52B77ADA53}PrefabsEditable/E_DSK_Sign_Yuri.et" {
  coords 144.131 1 90.585
@@ -72,7 +81,7 @@ SCR_DestructibleBuildingEntity : "{B5DCEB236A15EF40}Prefabs/E_Billboard_Bann.et"
  coords 141.79 0 93.453
 }
 GenericEntity : "{BBD113AFB52C2BC6}Prefabs/WallMap_01_Funk.et" {
- coords 148.117 1 95.478
+ coords 146.153 2.308 95.478
 }
 GameEntity : "{BEA08F3EDC2D6C06}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky_2.et" {
  coords 144.692 2.026 97.518
@@ -87,11 +96,17 @@ GenericEntity : "{CD426132A94628B8}Prefabs/Props/Commercial/Posters/PosterSingle
  coords 135.359 1.789 95.452
  angleZ 90.349
 }
+GenericEntity : "{DE1A0219E9E7A402}Prefabs/WallMap_01_Everon.et" {
+ coords 147.601 2.994 94.851
+}
 GameEntity : "{E68BD8B6E0F77B26}Prefabs/Characters/Armbands/DSK_Armband_RP.et" {
  coords 144.483 2.061 97.079
  angleX -5.467
  angleY -87.041
  angleZ 61.517
+}
+GameEntity : "{EAE7DD8EDCBC5E6C}Prefabs/Items/Equipment/Patches/DSK_Patch_Granit_2.et" {
+ coords 144.421 2.023 97.517
 }
 SCR_DestructibleBuildingEntity : "{F0090D0DA2A256C0}Prefabs/Billboard_Funk.et" {
  coords 147.965 0 93.676
