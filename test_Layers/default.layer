@@ -86,6 +86,9 @@ GenericEntity : "{BBD113AFB52C2BC6}Prefabs/WallMap_01_Funk.et" {
 GameEntity : "{BEA08F3EDC2D6C06}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky_2.et" {
  coords 144.692 2.026 97.518
 }
+GenericEntity : "{C0D09A53EEA441D7}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 140.396 1 106.757
+}
 GenericEntity : "{C1083BA04D43F624}Prefabs/E_SignFlag_DSK_01.et" {
  coords 138.676 1 92.123
 }

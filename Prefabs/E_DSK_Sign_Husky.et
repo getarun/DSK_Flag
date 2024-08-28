@@ -38,5 +38,6 @@ GenericEntity : "{0F4F2F8A1BB4766F}Prefabs/Structures/Signs/Military/SignRectang
    }
   }
  }
- coords 0 0 0
+ coords -7.91 0 -5.943
+ angleY -180
 }
