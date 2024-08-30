@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{36E65023D04FCF97}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/DSK_Levie_Barracks_Quarters.et"
+ Name "{79BBE42271E1AF25}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/DSK_Levie_Barracks.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

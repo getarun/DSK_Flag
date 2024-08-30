@@ -1,6 +1,11 @@
 GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
  ID "F0DBA538AC2A0552"
  components {
+  MapDescriptorComponent "{623C54DC3475DBC2}" {
+   Enabled 0
+   DisplayName "asd"
+   MainType "Name City"
+  }
   RigidBody "{5872F0EB7DFB5A9D}" {
    ResponseIndex "NoCollision"
   }
@@ -9,8 +14,8 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   }
   SCR_EditableEntityComponent "{6238B355276B86F8}" {
    m_UIInfo SCR_EditableEntityUIInfo "{6238B355276B86EA}" {
-    Name "Camp Husky"
-    Icon "{E48CF4C2C652AD90}UI/Textures/MainMenu/Icons/Multiplayer_textured_Icon_UI.edds"
+    Name "FOB"
+    Icon "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
     m_Image "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
     m_aAuthoredLabels {
      1001
@@ -18,6 +23,20 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     m_aAutoLabels {
      5 280 23
     }
+   }
+  }
+  SCR_MapDescriptorComponent "{623C54DE51AE9194}" {
+   Enabled 0
+   DisplayName "FOB"
+   MainType "Name Hill"
+   ForceGroupScale 1
+  }
+  SCR_MilitaryBaseMapDescriptorComponent "{623C54DF8BCABFEC}" {
+   Enabled 0
+   DisplayName "asd"
+   ImagesetQuadElement "1"
+   MainType Spawnpoint
+   m_GraphLinesData SCR_GraphLinesData "{623C54DF9DA9A48A}" {
    }
   }
   RplComponent "{5624A88DC2D9928D}" {
@@ -551,66 +570,49 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    coords 9.004 0.217 11.252
    angleY 0
   }
-  $grp StaticModelEntity : "{51453500F5727B57}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Pump_green.et" {
-   {
-    ID "6238B355276C1BC8"
-    components {
-     Hierarchy "{623C10301CB23223}" {
-     }
-    }
-    coords -13.161 -0.12 15.516
-    angleY -92.471
-    {
-     SCR_DestructibleBuildingEntity {
-      ID "5586DB4CF0A04A1D"
-      components {
-       RplComponent "{50A4E7C9B5728062}" {
-        Enabled 1
-       }
-      }
-      coords 0 0 0
-      {
-       GenericEntity {
-        ID "55C49DEA21F1B52E"
-        coords 0 0 0
-       }
-       GenericEntity {
-        ID "55C49DEA21F1B572"
-        coords 0 0 0
-       }
-       GenericEntity {
-        ID "5C74B5451771AAF0"
-        coords 0 0 0
-       }
-      }
-     }
+  StaticModelEntity : "{51453500F5727B57}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Pump_green.et" {
+   ID "6238B355276C1BC8"
+   components {
+    Hierarchy "{623C10301CB23223}" {
     }
    }
+   coords -13.161 -0.12 15.516
+   angleY -92.471
    {
-    ID "6238B355276C1BCB"
-    components {
-     Hierarchy "{623C103000E72516}" {
+    SCR_DestructibleBuildingEntity {
+     ID "5586DB4CF0A04A1D"
+     components {
+      SCR_FuelManagerComponent "{59F28EE6E3CC7019}" {
+       Enabled 1
+       FuelNodes {
+        SCR_FuelNode "{59F28EE6E3CC701D}" {
+         m_fInitialFuelTankState 100
+        }
+       }
+      }
+      RplComponent "{50A4E7C9B5728062}" {
+       Enabled 1
+      }
      }
-    }
-    coords -13.161 -0.209 15.516
-    angleY -92.471
-    {
-     SCR_DestructibleBuildingEntity {
-      ID "5586DB4CF0A04A1D"
-      coords 0 0 0
-      {
-       GenericEntity {
-        ID "55C49DEA21F1B52E"
-        coords 0 0 0
+     coords 0 0 0
+     {
+      GenericEntity {
+       ID "55C49DEA21F1B52E"
+       coords 0 0 0
+      }
+      GenericEntity {
+       ID "55C49DEA21F1B572"
+       coords 0 0 0
+      }
+      GenericEntity {
+       ID "5C74B5451771AAF0"
+       components {
+        SCR_SupportStationAreaMeshComponent "{5C74B545133E458A}" {
+         m_fHeight 1
+         m_bFollowTerrain 1
+        }
        }
-       GenericEntity {
-        ID "55C49DEA21F1B572"
-        coords 0 0 0
-       }
-       GenericEntity {
-        ID "5C74B5451771AAF0"
-        coords 0 0 0
-       }
+       coords 0 0 0
       }
      }
     }
@@ -808,15 +810,6 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    coords -10.786 -0.194 -1.254
    angleY 88.127
   }
-  GenericEntity : "{6784D06743039F27}Prefabs/E_DSK_Sign_Husky.et" {
-   ID "6238C658DBD8482B"
-   components {
-    Hierarchy "{623C10303245AF4D}" {
-    }
-   }
-   coords -7.91 0 -5.943
-   angleY 180
-  }
   $grp GenericEntity : "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" {
    {
     ID "623C2A1C48B5BA3B"
@@ -848,6 +841,20 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    }
    coords 10.664 0.212 15.466
    angleY 89.09
+  }
+  $grp GameEntity : "{7C53E6DE2E4BD8CB}Prefabs/Items/Equipment/Watches/Watch_GarminTactixBravo.et" {
+   {
+    ID "623C54D1BBEDB047"
+    coords 5.33 1.112 19.283
+   }
+   {
+    ID "623C54D1BBEDB067"
+    coords 5.729 1.112 19.306
+   }
+   {
+    ID "623C54D1BBEDB791"
+    coords 5.51 1.112 19.312
+   }
   }
   $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
    {
@@ -1031,6 +1038,18 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    ID "623C19A5D8F13C3E"
    coords 10.542 0.212 17.131
    angleY 90.026
+  }
+  SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
+   ID "623C7D0934542FBE"
+   components {
+    SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
+     DisplayName "FOB"
+    }
+   }
+   coords -3.862 -0.549 5.515
+   m_fSpawnRadius 5
+   m_fSpawnPositionUsageRange 5
+   m_fRespawnTime 5
   }
   SCR_DestructibleBuildingEntity : "{D0947E26A8A39ECF}Prefabs/Structures/Forest/DeerStands/DeerStand_01.et" {
    ID "6238B355276C1BB5"
@@ -1367,6 +1386,19 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    ID "623C19A5D8F13CEF"
    coords 5.414 1.009 21.595
    angleY 0
+  }
+  GenericEntity : "{DF638A582B4BBB55}Prefabs/World/Locations/Eden/Natural/Lamentin_Location_01.et" {
+   ID "623C54DD285B63C5"
+   components {
+    SCR_EditableCommentComponent "{529AB059519FE609}" {
+     Enabled 0
+    }
+    SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+     Enabled 0
+     ForceGroupScale 5
+    }
+   }
+   coords -2.827 -0.326 4.75
   }
   GenericEntity : "{E08CD985DF63F56B}Prefabs/Structures/Military/CamoNets/CamoNet_Large_01_base.et" {
    ID "6238B355275944F7"

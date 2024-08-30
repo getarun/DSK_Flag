@@ -1,0 +1,116 @@
+GenericEntity {
+ ID "623C8D8858D086DE"
+ components {
+  SCR_EditableEntityComponent "{623C8D8858D201AD}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{623C8D8858D201DC}" {
+    Name "Levie Barracks"
+    Description "Levie Barracks"
+    m_Image "{8F297E7250193E69}DSK_Levie_Barracks_Storage.edds"
+    m_aAuthoredLabels {
+     4 1001
+    }
+   }
+   m_Flags 0
+  }
+  RplComponent "{623C8D8858D201F3}" {
+  }
+  Hierarchy "{623C8D8858D201F0}" {
+  }
+ }
+ coords 7399.499 162.273 4307.961
+ Flags 1026
+ {
+  $grp GenericEntity {
+   {
+    ID "623C8D8858D0FC70"
+    coords 4.062 0 -9.655
+   }
+   {
+    ID "623C8D8858D0FC76"
+    coords 4.031 -0.029 -9.426
+   }
+  }
+  GenericEntity : "{0364A92598A826F3}Prefabs/Props/Furniture/BenchStadium_01.et" {
+   ID "623C949BBCE74903"
+   coords -4.406 0 -1.098
+   angleY 90
+  }
+  $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+   {
+    ID "623C8D8858D0FC88"
+    coords 3.233 1.281 4.242
+    angleY -92.376
+   }
+   {
+    ID "623C8D8858D0FC89"
+    coords 3.254 0 4.226
+    angleY -92.376
+   }
+   {
+    ID "623C8D8858D139F1"
+    coords -4.315 -0.011 3.803
+    angleY -92.376
+   }
+   {
+    ID "623C8D8858D15766"
+    coords -4.336 1.296 3.819
+    angleY -92.376
+   }
+  }
+  $grp GenericEntity : "{0CA7840CD4247D8A}Prefabs/Compositions/Misc/SubCompositions/SandbagCamo_wall_High_US.et" {
+   {
+    ID "623C8D8858D15771"
+    coords -3.094 -0.056 -9.84
+    angleY 0
+   }
+   {
+    ID "623C8D8858D15772"
+    coords 3.491 0 -9.786
+    angleY 0
+   }
+   {
+    ID "623C8D8858D15773"
+    coords 0.162 0.153 -9.63
+    angleY 0
+   }
+  }
+  StaticModelEntity : "{31F69EA0C0143F1D}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Notebook_US_01.et" {
+   ID "623C949BBCE74927"
+   coords 4.589 0 -7.007
+   angleY -90.586
+  }
+  SCR_DestructibleEntity : "{41DBB422CDB858C1}PrefabLibrary/Props/Civilian/TrashBin_01.et" {
+   ID "623C8D8858D1577B"
+   components {
+    Hierarchy "{623C8D8858D201FE}" {
+    }
+   }
+   coords -5.533 -0.022 1.281
+   angleY 91.098
+  }
+  GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+   ID "623C8D8858D1577E"
+   coords -3.196 1.267 -10.003
+  }
+  $grp GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
+   {
+    ID "623C8D8858D174FC"
+    components {
+     Hierarchy "{623C8D8858D201EA}" {
+     }
+    }
+    coords -2.574 0.047 4.232
+    angleY -2.255
+   }
+   {
+    ID "623C8D8858D1B619"
+    components {
+     Hierarchy "{623C8D8858D201EE}" {
+     }
+    }
+    coords 1.271 0.048 4.476
+    angleY -4.832
+   }
+  }
+ }
+}
