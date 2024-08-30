@@ -53,11 +53,18 @@ GameEntity : "{7D2C5EB25786D8B0}Prefabs/Items/Equipment/Patches/DSK_Patch_Jaeger
 SCR_DestructibleBuildingEntity : "{7F89E71D3DA19975}PrefabsEditable/E_DSK_Billboard.et" {
  coords 135.474 1 93.412
 }
+GenericEntity : "{861776C3E086BDA5}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/DSK_Levie_Barracks_Quarters.et" {
+ coords 109.712 1 136.017
+ angleY 179.026
+}
 GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
  coords 144.682 1 97.145
 }
 GameEntity : "{9634686FC8D4440C}Prefabs/Items/Equipment/Patches/DSK_Patch_FschJaeger_2.et" {
  coords 144.512 2.029 97.519
+}
+GenericEntity : "{98C10F65895FFE33}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Camp_Husky.et" {
+ coords 156.757 1 127.924
 }
 GenericEntity : "{9CFEE3EAA762FEC0}Prefabs/WallMap_01_Bann.et" {
  coords 142.62 2.433 95.218
@@ -86,7 +93,7 @@ GenericEntity : "{BBD113AFB52C2BC6}Prefabs/WallMap_01_Funk.et" {
 GameEntity : "{BEA08F3EDC2D6C06}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky_2.et" {
  coords 144.692 2.026 97.518
 }
-GenericEntity : "{C0D09A53EEA441D7}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
  coords 140.396 1 106.757
 }
 GenericEntity : "{C1083BA04D43F624}Prefabs/E_SignFlag_DSK_01.et" {

@@ -10,10 +10,13 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   SCR_EditableEntityComponent "{6238B355276B86F8}" {
    m_UIInfo SCR_EditableEntityUIInfo "{6238B355276B86EA}" {
     Name "Camp Husky"
-    Icon "{FE583F66E4344EAF}ArtPrefabs/20240415095815_1.edds"
-    m_Image "{FE583F66E4344EAF}ArtPrefabs/20240415095815_1.edds"
+    Icon "{E48CF4C2C652AD90}UI/Textures/MainMenu/Icons/Multiplayer_textured_Icon_UI.edds"
+    m_Image "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
     m_aAuthoredLabels {
-     4 13 1001
+     1001
+    }
+    m_aAutoLabels {
+     5 280 23
     }
    }
   }
@@ -29,6 +32,11 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    ID "6238B355276B86DE"
    coords -0.409 -0.194 -4.855
    angleY 178.514
+  }
+  StaticModelEntity : "{1BFCA9525E528626}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_02.et" {
+   ID "623C19A5D8F13C66"
+   coords 5.472 0.212 19.579
+   angleY 0
   }
   $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
    {
@@ -419,6 +427,130 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     angleY 88.129
    }
   }
+  GenericEntity : "{26C88C6A2B3E0F11}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_05.et" {
+   ID "623C19A5D8F13C49"
+   coords 2.488 0.223 20.827
+   angleY -90.228
+  }
+  $grp GenericEntity : "{27E4C0ECA5EB1318}Prefabs/Structures/Military/Camps/Foundations/Foundation_ShelterStorage_01.et" {
+   {
+    ID "623C27CD0CAC4C2A"
+    coords -14.328 -0.109 -0.564
+   }
+   {
+    ID "623C27CD0CAC4CC6"
+    coords -14.587 -0.25 9.506
+   }
+   {
+    ID "623C2A129FD388F5"
+    coords -8.947 0.036 24.008
+    angleY -90.488
+   }
+   {
+    ID "623C2A164C069001"
+    coords -5.423 -0.142 -3.798
+    angleY -90.488
+   }
+   {
+    ID "623C2A164C069013"
+    coords 11.268 -0.004 20.786
+   }
+   {
+    ID "623C2A164C069030"
+    coords 9.857 0.005 -4.105
+    angleY -90.488
+   }
+   {
+    ID "623C2A164C069067"
+    coords 12.118 -0.015 -0.26
+    angleY -0.459
+   }
+   {
+    ID "623C2A164C069070"
+    coords 11.859 -0.134 9.81
+    angleY -0.459
+   }
+   {
+    ID "623C2A164C0690D3"
+    coords 5.464 -0.181 23.585
+    angleY -90.488
+   }
+   {
+    ID "623C2A1731FBAF35"
+    coords -3.009 -0.057 23.95
+    angleY -90.488
+   }
+   {
+    ID "623C2A1761C4E73B"
+    coords -15.178 -0.12 20.482
+   }
+   {
+    ID "623C2A1FC2C4FA1D"
+    coords -6.983 -0.121 -0.337
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FA27"
+    coords -8.032 -0.84 20.723
+   }
+   {
+    ID "623C2A1FC2C4FA39"
+    coords -7.471 -0.97 13.544
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FA49"
+    coords -2.696 -0.845 21.356
+   }
+   {
+    ID "623C2A1FC2C4FA5F"
+    coords -2.135 -0.975 14.177
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FA63"
+    coords -1.647 -0.145 0.296
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FA74"
+    coords -0.9 -0.834 8.325
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FB86"
+    coords 7.038 -0.651 21.81
+   }
+   {
+    ID "623C2A1FC2C4FB88"
+    coords 7.599 -0.781 14.631
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FB9E"
+    coords -7.246 -0.829 7.684
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FBA2"
+    coords 8.087 -0.646 0.75
+    angleY -0.459
+   }
+   {
+    ID "623C2A1FC2C4FBB4"
+    coords 7.824 -0.134 8.771
+    angleY -0.459
+   }
+  }
+  StaticModelEntity : "{5019513019F0885A}Prefabs/Props/Military/Furniture/TableMilitary_US_02.et" {
+   ID "623C19A5D8F13DAA"
+   components {
+    Hierarchy "{623C41DD53EE4817}" {
+    }
+   }
+   coords 9.004 0.217 11.252
+   angleY 0
+  }
   $grp StaticModelEntity : "{51453500F5727B57}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Pump_green.et" {
    {
     ID "6238B355276C1BC8"
@@ -657,6 +789,16 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     angleY -91.973
    }
   }
+  GenericEntity : "{59FF31302266059A}PrefabsEditable/Auto/Props/Military/Compositions/US/E_BuildingService_US.et" {
+   ID "623C2A1C48B5BA1A"
+   components {
+    SCR_CampaignBuildingProviderComponent "{5EBCED04D0321687}" {
+     m_fBuildingRadius 200
+    }
+   }
+   coords 0.214 0.222 13.963
+   angleY 84.573
+  }
   GenericEntity : "{6204943E9EC70EC2}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Medium_US.et" {
    ID "6238B355276D4409"
    components {
@@ -674,6 +816,38 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    }
    coords -7.91 0 -5.943
    angleY 180
+  }
+  $grp GenericEntity : "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" {
+   {
+    ID "623C2A1C48B5BA3B"
+    coords 8.437 1.123 11.172
+   }
+   {
+    ID "623C2A1C48B5BA77"
+    coords 9.429 1.125 11.163
+   }
+   {
+    ID "623C2A1C48B5BAD9"
+    coords 8.982 1.125 11.252
+   }
+  }
+  StaticModelEntity : "{6FFD54071AD89DAC}Prefabs/Props/Military/Furniture/TableMilitary_US_02_cabinet.et" {
+   ID "623C19A5D8F13DBA"
+   components {
+    Hierarchy "{623C27CC423AD71E}" {
+    }
+   }
+   coords 7.468 0.215 21.323
+   angleY -90.875
+  }
+  StaticModelEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
+   ID "623C19A5D8F13C58"
+   components {
+    Hierarchy "{623C27CC58E3FD86}" {
+    }
+   }
+   coords 10.664 0.212 15.466
+   angleY 89.09
   }
   $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
    {
@@ -767,6 +941,11 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     angleY 85.913
    }
   }
+  GenericEntity : "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et" {
+   ID "623C19A5D8F13EB8"
+   coords -9.405 -0.127 -0.836
+   angleY -100.088
+  }
   $grp GenericEntity : "{B8576ECF78CDBCD7}Prefabs/Props/Military/Training/Obstacles/ObstacleBridge_01_start.et" {
    {
     ID "6238B355276B86DD"
@@ -810,6 +989,48 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     coords -13.633 -0.149 -0.496
     angleY -1.781
    }
+  }
+  $grp Tree : "{BA785041AC632123}Prefabs/Vegetation/Bush/b_salix_cinerea_1.et" {
+   {
+    ID "623C2A1058F8441E"
+    components {
+     Hierarchy "{623C41DD5B30A3D1}" {
+     }
+    }
+    coords 2.245 -1.521 -5.577
+   }
+   {
+    ID "623C41DA998A1A2E"
+    components {
+     Hierarchy "{623C41DD5B30A3D1}" {
+     }
+    }
+    coords 3.933 -1.16 -1.048
+   }
+  }
+  GenericEntity : "{BE99D77D1155B127}Prefabs/Props/Military/Arsenal/ArsenalBoxes/US/ArsenalBox_US.et" {
+   ID "623C19A5D8F13D47"
+   coords -12.65 -0.226 8.207
+   angleY 101.132
+   {
+    GenericEntity {
+     ID "58C4A255C2BC3015"
+     coords -0.349 -0.721 0.866
+    }
+    GenericEntity {
+     ID "58C4A255C2BC30C8"
+     coords 1.286 -0.025 -0.634
+    }
+    GenericEntity {
+     ID "58C4A255C2BC30E4"
+     coords 1.104 -0.021 0.282
+    }
+   }
+  }
+  StaticModelEntity : "{C354C09327DB987A}Prefabs/Compositions/Misc/SubCompositions/TableMilitary_Cluttered_US_04.et" {
+   ID "623C19A5D8F13C3E"
+   coords 10.542 0.212 17.131
+   angleY 90.026
   }
   SCR_DestructibleBuildingEntity : "{D0947E26A8A39ECF}Prefabs/Structures/Forest/DeerStands/DeerStand_01.et" {
    ID "6238B355276C1BB5"
@@ -1141,6 +1362,11 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     coords -8.045 2.259 23.613
     angleY -92.158
    }
+  }
+  GenericEntity : "{DE1A0219E9E7A402}Prefabs/WallMap_01_Everon.et" {
+   ID "623C19A5D8F13CEF"
+   coords 5.414 1.009 21.595
+   angleY 0
   }
   GenericEntity : "{E08CD985DF63F56B}Prefabs/Structures/Military/CamoNets/CamoNet_Large_01_base.et" {
    ID "6238B355275944F7"

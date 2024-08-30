@@ -10,6 +10,7 @@ GenericEntity : "{DCBC472CDA3EA9B2}Prefabs/Props/Civilian/WallMap_01.et" {
    }
   }
   SCR_EditableEntityComponent "{58AAE805A2532530}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   Enabled 0
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Map Everon"
     m_Image "{A91123E3B65EA1EC}DSK_Map_Everon_preview.edds"
@@ -21,6 +22,7 @@ GenericEntity : "{DCBC472CDA3EA9B2}Prefabs/Props/Civilian/WallMap_01.et" {
    }
   }
   SCR_PreviewEntityComponent "{58AAE805A25265FE}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   Enabled 0
    m_bRuntime 0
    m_aEntries {
     SCR_BasePreviewEntry "{6236D1502E02C449}" {
@@ -37,6 +39,9 @@ GenericEntity : "{DCBC472CDA3EA9B2}Prefabs/Props/Civilian/WallMap_01.et" {
   }
   RplComponent "{58AAE805A2533936}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
   }
+  Hierarchy "{623C19A4C02B2468}" {
+  }
  }
+ coords 5.414 1.009 21.595
  angleY 0
 }
