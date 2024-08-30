@@ -1,0 +1,276 @@
+GenericEntity : "{36E65023D04FCF97}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/DSK_Levie_Barracks_Quarters_WIP.et" {
+ ID "623B36AD97472DB4"
+ components {
+  SCR_EditableEntityComponent "{623B36AD97463EAA}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{623B36AD97463EB9}" {
+    m_Image "{82C560247E46ABD5}DSK_Levie_Barracks_Quarters.edds"
+   }
+  }
+ }
+ coords 0 0 0
+ {
+  GameEntity {
+   ID "623B36AD9746A9D9"
+   components {
+    Hierarchy "{623B53D956AF9B5F}" {
+    }
+   }
+   coords 0.904 0.873 -5.083
+  }
+  GameEntity {
+   ID "623B36AD9746D536"
+   components {
+    Hierarchy "{623B53D95368B960}" {
+    }
+   }
+   coords -0.779 0.873 -5.838
+  }
+  GenericEntity {
+   ID "623B36A9F34B1098"
+   coords 0.084 0.153 -9.503
+  }
+  GenericEntity {
+   ID "623B36A9F34B10F8"
+   coords -3.395 -0.056 -9.84
+  }
+  GenericEntity {
+   ID "623B36AD9746A9D6"
+   coords -3.88 -0.017 -0.154
+  }
+  GenericEntity {
+   ID "623B36AD9746A9D7"
+   coords 2.861 -0.019 0.417
+  }
+  GenericEntity {
+   ID "623B36AD974749F3"
+   coords 1.266 0.048 4.534
+  }
+  GenericEntity {
+   ID "623B53D66070770E"
+   components {
+    Hierarchy "{623C1033E8F4E11A}" {
+    }
+   }
+   coords 3.104 0 4.63
+   angleY 175.726
+  }
+  GenericEntity {
+   ID "623B53D660707748"
+   components {
+    Hierarchy "{623C1033ED25CAF3}" {
+    }
+   }
+   coords 3.099 1.281 4.477
+   angleY 175.726
+  }
+  GenericEntity {
+   ID "623B53D6607078A0"
+   components {
+    Hierarchy "{623C1033D52FCFFB}" {
+    }
+   }
+   coords -4.795 -0.011 4.086
+   angleY -2.112
+  }
+  GenericEntity {
+   ID "623B53D6607078B9"
+   components {
+    Hierarchy "{623C1033D12D974C}" {
+    }
+   }
+   coords -4.919 1.296 4.017
+   angleY -2.112
+  }
+  SCR_DestructibleEntity {
+   ID "623B36AD9746A9D3"
+   coords 0.01 -0.023 -5.515
+  }
+  $grp GenericEntity : "{027DFD4BB8D66F61}Prefabs/Props/Furniture/BenchWooden_03.et" {
+   {
+    ID "623B53D3DD744CF9"
+    components {
+     Hierarchy "{623B53D30ECAC4EF}" {
+     }
+    }
+    coords 4.453 -0.024 -5.252
+    angleY -89.836
+   }
+   {
+    ID "623B53D3DD759A33"
+    components {
+     Hierarchy "{623B53D30A8586F8}" {
+     }
+    }
+    coords -4.733 0.008 -6.461
+    angleY -89.836
+   }
+  }
+  GenericEntity : "{1296AE53C6C53817}Prefabs/Props/Civilian/WallMap_01_Military_VZ58_V1.et" {
+   ID "623B53DCA178BCE2"
+   components {
+    Hierarchy "{623B53D95AB3498B}" {
+    }
+   }
+   coords -2.856 0.678 -8.444
+   angleY 0
+  }
+  $grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
+   {
+    ID "623B53D3DD7599D9"
+    components {
+     Hierarchy "{623B53D97EF5D049}" {
+     }
+    }
+    coords -2.404 2.107 4.292
+    angleY -91.591
+   }
+   {
+    ID "623B53D3DD75F15B"
+    components {
+     Hierarchy "{623B53D96209D6BF}" {
+     }
+    }
+    coords 1.018 2.074 4.42
+    angleY -91.591
+   }
+  }
+  SCR_DestructibleEntity : "{5585E2968ACE1D4B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_B.et" {
+   ID "623B53D3DD759A2D"
+   components {
+    Hierarchy "{623B53D303C0F55D}" {
+    }
+   }
+   coords 0.787 0.019 -8.713
+  }
+  SCR_DestructibleEntity : "{7A3449DF32A16042}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_D.et" {
+   ID "623B53D3DD759A28"
+   components {
+    Hierarchy "{623B53D307591CB8}" {
+    }
+   }
+   coords -4.822 0.091 -8.493
+  }
+  GenericEntity : "{953B5D589B15D11A}Prefabs/Props/Civilian/WallMap_01_Military_VZ61_V1.et" {
+   ID "623B53DCA178BF08"
+   components {
+    Hierarchy "{623B53D95FF3CA80}" {
+    }
+   }
+   coords 1.821 0.598 -8.623
+   angleY 0
+  }
+  $grp GenericEntity : "{AB1E83746BDF76D1}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeTriple_S_USSR_01.et" {
+   {
+    ID "623B53D8B3FC264E"
+    components {
+     SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+      Enabled 0
+     }
+     SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+      Enabled 0
+     }
+    }
+    coords 0.136 2.361 -9.052
+    angleY -90.115
+    {
+     StaticModelEntity {
+      ID "5E64B54F57833D69"
+      coords 0 0 0
+      angleY -176.43
+     }
+    }
+   }
+   {
+    ID "623B53D8B3FC2683"
+    components {
+     SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+      Enabled 0
+     }
+     SCR_EditorLinkComponent "{5E64E38F89DF49F9}" {
+      Enabled 1
+     }
+     SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+      Enabled 0
+     }
+    }
+    coords -3.088 2.154 -9.452
+    angleY -90.115
+    {
+     StaticModelEntity {
+      ID "5E64B54F57833D69"
+      coords 0 0 0
+      angleY -176.43
+     }
+    }
+   }
+   {
+    ID "623B53D8D3F34E64"
+    components {
+     SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+      Enabled 0
+     }
+     SCR_EditorLinkComponent "{5E64E38F89DF49F9}" {
+      Enabled 1
+     }
+     SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+      Enabled 0
+     }
+    }
+    coords 3.233 2.227 -9.426
+    angleY -90.115
+    {
+     StaticModelEntity {
+      ID "5E64B54F57833D69"
+      coords 0 0 0
+      angleY -176.43
+     }
+    }
+   }
+  }
+  GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+   ID "623B53D1DA3EE82E"
+   components {
+    Hierarchy "{623B53D96E3B0045}" {
+    }
+   }
+   coords -0.661 2.258 4.495
+  }
+  $grp StaticModelEntity : "{C9CFDED29542A968}Prefabs/Props/Military/Furniture/CotMilitary_US_01.et" {
+   {
+    ID "623B53DA7B33B880"
+    components {
+     Hierarchy "{623C1033C20CD75E}" {
+     }
+    }
+    coords 3.074 -0.002 -0.77
+    angleY -8.8
+   }
+   {
+    ID "623B53DA7B33B8DF"
+    components {
+     Hierarchy "{623C1033DEB63D3A}" {
+     }
+    }
+    coords -3.95 0.036 -1.268
+    angleY -4.906
+   }
+  }
+  GenericEntity : "{CF03E052DBF2A88A}Prefabs/Props/Civilian/WallMap_01_Military_UK59L_V1.et" {
+   ID "623B53DCA178BCCE"
+   components {
+    Hierarchy "{623B53D9428EAE1B}" {
+    }
+   }
+   coords 3.515 0.586 -8.545
+   angleY 0
+  }
+  GenericEntity : "{DE1A0219E9E7A402}Prefabs/WallMap_01_Everon.et" {
+   ID "623B53D3DD744CF4"
+   components {
+    Hierarchy "{623B53D3724E418C}" {
+    }
+   }
+   coords -0.939 0.691 -8.405
+  }
+ }
+}
