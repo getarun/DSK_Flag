@@ -14,8 +14,8 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   }
   SCR_EditableEntityComponent "{6246C3EF0A61CFDF}" {
    m_UIInfo SCR_EditableEntityUIInfo "{6246C3EF0A61CFDA}" {
-    Name "FOB Mortar"
-    Description "FOB with mortar (1 smoke)"
+    Name "FOB M119"
+    Description "FOB with M119 (smoke)"
     Icon "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
     m_Image "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
     m_aAuthoredLabels {

@@ -1,0 +1,37 @@
+GenericEntity : "{022E370A593D62DE}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "M252 81mm Red Smoke 6rnd"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5AF070F2C2467B5F}" {
+     ItemDimensions 10 10 10
+     ItemVolume 1000
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellMortart "{6246FCE1950B9953}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "M252 81mm Red Smoke"
+    Description "6 x 81mm Red Smoke Mortars"
+    m_sAmmoCaliber "81mm"
+    m_sAmmoType "SMOKE"
+    m_eAmmoTypeFlags SMOKE
+   }
+   ItemModel "{E6010A8C85942B48}Assets/Props/Military/AmmoBox/AmmoBox_81mm_mortar_3rnd/AmmoBox_81mm_mortar_3rnd.xob"
+   MaxAmmo 6
+   AmmoConfig "{BDFAD5027DF0C7ED}Mortars/DSK_Ammo_mortar.conf"
+   AmmoMapping {
+    1 1 1 1 1 1
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{E6010A8C85942B48}Assets/Props/Military/AmmoBox/AmmoBox_81mm_mortar_3rnd/AmmoBox_81mm_mortar_3rnd.xob"
+  }
+ }
+}

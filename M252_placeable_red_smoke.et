@@ -1,0 +1,95 @@
+GenericEntity {
+ ID "6246FCE122CF7AB4"
+ components {
+  RigidBody "{6246FCE122CF7AAE}" {
+  }
+  SCR_CampaignBuildingCompositionComponent "{6246FCE122CF7ADD}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{6246FCE122CF7AD7}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_HEDGEHOG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{6246FCE122CF7ACC}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_HEDGEHOG"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{6246FCE122CF7AC1}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6246FCE122CF7AC3}" {
+    Name "M252 81mm mortar"
+    Description "5x red smoke"
+    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+    m_Image "{1DD15B3C97886ABB}Artythings/m252.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     108 11
+    }
+    m_aAutoLabels {
+     5 121
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6246FCE122CF7AC7}" {
+      m_BudgetType CAMPAIGN
+      m_Value 500
+     }
+     SCR_EntityBudgetValue "{6246FCE122CF7AF8}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6246FCE122CF7AFB}" {
+      m_Value 1
+     }
+    }
+   }
+   m_Flags 132547
+  }
+  SCR_EditorLinkComponent "{6246FCE122CF7AF1}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{6246FCE122CF7AF3}" {
+     m_Prefab "{3817FAE9AE55B11A}Mortars/81/M252new_red.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{6246FCE122CF7AF4}" {
+  }
+  ActionsManagerComponent "{6246FCE122CF7AF6}" {
+   ActionContexts {
+    UserActionContext "{6246FCE122CF7AE7}" {
+     ContextName "Disassembly"
+     Position PointInfo "{6246FCE122CF7A19}" {
+      Offset 0 0.5 0
+     }
+     Radius 5
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{6246FCE122CF7A1D}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{6246FCE122CF7A1F}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly-UC"
+     }
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{6246FCE122CF7A13}" {
+  }
+  Hierarchy "{6246FCE122CF7A15}" {
+  }
+ }
+ coords -7.222 -0.774 9.651
+ {
+  Turret : "{0374F390B22D0D1E}Mortars/81/M252new.et" {
+   ID "6246FCE122CF7AAB"
+   coords 0 0 0
+   Flags 1048576
+  }
+ }
+}

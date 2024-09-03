@@ -1,0 +1,57 @@
+Projectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/Ammo_127x99_Ball_M33.et" {
+ ID "70242781DB2FDA8A"
+ components {
+  SignalsManagerComponent "{6246FCE1A321B10B}" {
+  }
+  SCR_ShellSoundComponent "{6246FCE1A321B101}" {
+   Filenames {
+    "{4842BF7FE8422E1F}Sounds/Weapons_ProjectileTravelling_mortar.acp"
+   }
+   OnFrameUpdate 1
+   ScriptCallbacks 1
+  }
+  CollisionTriggerComponent "{6246FCE1A321B106}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6246FCE1A321B13B}" {
+     TriggerOnce 1
+     EffectPrefab "{A7227F98D2730095}Prefabs/Weapons/Warheads/Warhead_mortar_HE.et"
+     ParticleEffect "{9A5B65D217DB3216}M119/arty_smoke_red.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+     ExitEffectPrefab "{4E168888868FE6C7}Prefabs/Weapons/Core/ExitEffect.et"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 250
+   InitSpeedVariation 1
+   Mass 0.25
+   TimeToLive 45
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     TriggerOnce 1
+     DamageValue 2000
+    }
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     TriggerOnce 1
+    }
+    ProjectileDamage "{6246FCE1A321B129}" {
+     DamageType Incendiary
+     DamageEffects {
+      SCR_IncendiaryBulletDamageEffect "{6246FCE1A321B12A}" {
+      }
+     }
+    }
+   }
+   BallisticTableConfig "{E21489D6FC1E47B9}Configs/Weapons/AIBallisiticTables/AIBT_Grenade_HEDP_M433.conf"
+   AirDrag 0.00031
+   Diameter 81
+   DeflectionCriticalAngle 20
+   PenetrationUse 0
+   PenetrationDepth 200
+   PenetrationSpeed 1750
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{D2C8D2D82470E485}mortar1.xob"
+ CartridgeModel "{D2C8D2D82470E485}mortar1.xob"
+}
