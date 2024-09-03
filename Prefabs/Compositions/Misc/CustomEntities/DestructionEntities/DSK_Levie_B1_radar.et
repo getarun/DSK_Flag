@@ -1,0 +1,51 @@
+GenericEntity {
+ ID "623CEBFDCE100B56"
+ components {
+  SCR_EditableEntityComponent "{623CEBFDEE116885}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{623CEBFDEACBECD9}" {
+    Name "Levie Radar"
+    Description "Levie Radar"
+    m_Image "{5E4C379708E40C19}DSK_Levie_B1_Radar.edds"
+    m_aAuthoredLabels {
+     1001
+    }
+   }
+  }
+  RplComponent "{623CEBFF7AFB8832}" {
+  }
+  Hierarchy "{623CEBFDD336542E}" {
+  }
+ }
+ coords 7467.817 172.085 4265.271
+ {
+  GenericEntity : "{451BE00A37C69679}Prefabs/Structures/Military/Radar/ApproachRadar_TPN19_01/ApproachRadar_TPN19_01_generator.et" {
+   ID "623CEBFDCE100B58"
+   components {
+    Hierarchy "{623CEBFD18942B54}" {
+    }
+   }
+   coords -2.331 -6.664 -11.891
+   angleX 0.156
+   angleY -78.47
+   angleZ 2.889
+  }
+  StaticModelEntity : "{A0190D51FD62FF68}Prefabs/Structures/Military/Radar/ApproachRadar_TPN19_01/ApproachRadar_TPN19_01.et" {
+   ID "623CEBFDCE100B5E"
+   components {
+    Hierarchy "{623CEBFD1CDE6BF5}" {
+    }
+   }
+   coords -1.095 1.415 6.635
+   angleY -78.695
+  }
+  GenericEntity : "{A53C021F6888CE89}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_base.et" {
+   ID "623CEBFDCE100CA6"
+   components {
+    Hierarchy "{623CEBFD00284F9E}" {
+    }
+   }
+   coords -0.915 1.422 6.601
+   angleY -78.695
+  }
+ }
+}

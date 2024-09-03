@@ -32,29 +32,49 @@ GenericEntity {
   }
   GenericEntity : "{0364A92598A826F3}Prefabs/Props/Furniture/BenchStadium_01.et" {
    ID "623C949BBCE74903"
+   components {
+    Hierarchy "{623CEBE2A4F82219}" {
+    }
+   }
    coords -4.406 0 -1.098
    angleY 90
   }
   $grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
    {
     ID "623C8D8858D0FC88"
-    coords 3.233 1.281 4.242
-    angleY -92.376
+    components {
+     Hierarchy "{623CEBE2B72B3702}" {
+     }
+    }
+    coords 3.517 0.962 4.66
+    angleY -1.752
    }
    {
     ID "623C8D8858D0FC89"
-    coords 3.254 0 4.226
-    angleY -92.376
+    components {
+     Hierarchy "{623CEBE2BB836D5F}" {
+     }
+    }
+    coords 3.501 -0.319 4.639
+    angleY -1.752
    }
    {
     ID "623C8D8858D139F1"
-    coords -4.315 -0.011 3.803
-    angleY -92.376
+    components {
+     Hierarchy "{623CEBE2BC671831}" {
+     }
+    }
+    coords -4.701 -0.367 4.144
+    angleY -2.671
    }
    {
     ID "623C8D8858D15766"
-    coords -4.336 1.296 3.819
-    angleY -92.376
+    components {
+     Hierarchy "{623CEBE2A025C4F5}" {
+     }
+    }
+    coords -4.685 0.94 4.165
+    angleY -2.671
    }
   }
   $grp GenericEntity : "{0CA7840CD4247D8A}Prefabs/Compositions/Misc/SubCompositions/SandbagCamo_wall_High_US.et" {
@@ -87,10 +107,6 @@ GenericEntity {
    }
    coords -5.533 -0.022 1.281
    angleY 91.098
-  }
-  GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
-   ID "623C8D8858D1577E"
-   coords -3.196 1.267 -10.003
   }
   $grp GenericEntity : "{A7930B258A9B4CA8}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_plastic.et" {
    {

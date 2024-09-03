@@ -1,0 +1,57 @@
+TracerProjectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/Ammo_127x99_Ball_M33.et" {
+ ID "70242781DB2FDA8A"
+ components {
+  SignalsManagerComponent "{6246DC0CA7F6728E}" {
+  }
+  SCR_ShellSoundComponent "{6246DC0CA7F67297}" {
+   Filenames {
+    "{0A2BF4CDF736FE25}Sounds/Weapons_ProjectileTravelling_arty.acp"
+   }
+   OnFrameUpdate 1
+   ScriptCallbacks 1
+  }
+  CollisionTriggerComponent "{6246DC0CA7F6729E}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6246DC0CA7F6729B}" {
+     EffectPrefab "{BF8E759B6D897629}Prefabs/Weapons/Warheads/Warhead_arty_Smoke.et"
+     ParticleEffect "{9A5B65D217DB3216}M119/arty_smoke_red.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 850
+   InitSpeedVariation 5
+   Mass 23
+   TimeToLive 100
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     TriggerOnce 1
+     DamageValue 0
+    }
+    ExplosionEffect "{85DB664DDCA5D5B0}" {
+     TriggerOnce 1
+    }
+    ProjectileDamage "{6246DC0CA7F672EC}" {
+     DamageType Incendiary
+     DamageEffects {
+      SCR_IncendiaryBulletDamageEffect "{6246DC0CA7F672E8}" {
+      }
+     }
+    }
+   }
+   BallisticTableConfig "{9CB7C5D3DD2A3C2A}Configs/Weapons/AIBallisiticTables/AIBT_127x99_APIT_M20.conf"
+   AirDrag 0.0043
+   Diameter 122
+   DeflectionCriticalAngle 20
+   PenetrationUse 0
+   PenetrationDepth 200
+   PenetrationSpeed 1750
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{D807332FCA58B894}Assets/Weapons/Ammo/Tracers/Tracer_red.xob"
+ CartridgeModel "{0C9D3118E2015B17}Assets/Weapons/Ammo/Bullets/127x99/Cartridge_127x99_M10.xob"
+ "Tracer Burn Start After" 0.1
+ "Tracer Burn Time" 45
+}

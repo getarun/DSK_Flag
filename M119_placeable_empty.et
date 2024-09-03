@@ -1,0 +1,95 @@
+GenericEntity {
+ ID "6246C3E8AA46D559"
+ components {
+  RigidBody "{6246C3E8AA46D54E}" {
+  }
+  SCR_CampaignBuildingCompositionComponent "{6246C3E8AA46D543}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{6246C3E8AA46D539}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_HEDGEHOG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{6246C3E8AA46D530}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_HEDGEHOG"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{6246C3E8AA46D52F}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6246C3E8AA46D529}" {
+    Name "empty M119"
+    Description "105mm M119 Howitzer"
+    Icon "{91C4A9B5AD80D443}UI/Textures/Editor/Attributes/Arsenal/Attribute_Arsenal_Explosive.edds"
+    m_Image "{07AD2866C2577463}Artythings/m119.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     108 11 38 5
+    }
+    m_aAutoLabels {
+     1 123
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6246C3E8AA46D524}" {
+      m_BudgetType CAMPAIGN
+      m_Value 1000
+     }
+     SCR_EntityBudgetValue "{6246C3E8AA46D522}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6246C3E8AA46D521}" {
+      m_Value 1
+     }
+    }
+   }
+   m_Flags 132547
+  }
+  SCR_EditorLinkComponent "{6246C3E8AA46D519}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{6246C3E8AA46D514}" {
+     m_Prefab "{5CB1D9F54A877ABE}M119/M119_fieldgun_empty.et"
+     m_vPosition 0 0.75 4.313
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{6246C3E8AA46D510}" {
+  }
+  ActionsManagerComponent "{6246C3E8AA46D50F}" {
+   ActionContexts {
+    UserActionContext "{6246C3E8AA46D5FD}" {
+     ContextName "Disassembly"
+     Position PointInfo "{6246C3E8AA46D5F8}" {
+     }
+     Radius 0.5
+     Height 0.5
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{6246C3E8AA46D5F5}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{6246C3E8AA46D5F1}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly-UC"
+     }
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{6246C3E8AA46D5ED}" {
+  }
+  Hierarchy "{6246C3E8AA46D5E6}" {
+   AutoTransform 0
+  }
+ }
+ coords 0 -0.975 0
+ {
+  Turret : "{ECDC9FE2503E6152}M119/M119_fieldgun.et" {
+   ID "6246C3E8AA46D554"
+   coords 0 0.75 4.313
+   Flags 1048576
+  }
+ }
+}

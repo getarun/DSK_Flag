@@ -1,0 +1,29 @@
+GenericEntity : "{022E370A593D62DE}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "105mm HE"
+     Description "25 105mm HE Shells for the M119"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellArty "{6092E243280F7F92}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "105mm M119 HE"
+    Description ""
+    m_sAmmoCaliber "105mm"
+    m_eAmmoTypeFlags HE
+   }
+   ItemModel "{CD0935F9AA1BAA7C}Artythings/artybox.et"
+   MaxAmmo 25
+   AmmoConfig "{A63806FF5714176F}Artythings/Ammo_arty.conf"
+   AmmoMapping {
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+ }
+}

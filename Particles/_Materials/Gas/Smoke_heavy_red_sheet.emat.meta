@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0A19FA4892DEFA0A}Particles/_Materials/Gas/Smoke_heavy_red_sheet.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

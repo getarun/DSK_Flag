@@ -1,0 +1,21 @@
+Particle {
+ AlbedoMap "{1CAC51FBFD4456EB}Particles/_Textures/smoke_heavy_sheet_01.edds"
+ NormalMap "{26F9888C6B84ADBA}Particles/_Textures/smoke_heavy_sheet_01_NRM.edds"
+ Diffuse 0.371 0 0 1
+ Ambient 0.3 0 0 1
+ Emissive 0 0 0 0
+ ReceiveShadow 1
+ ReceiveProbesLighting 1
+ ReceiveLights 1
+ TileU 8
+ TileV 8
+ SphereSizeMultiplier 0.4
+ VertexNormalPower 1
+ NormalMapPower 1
+ NormalStretching 0.15
+ Backlight 0.3
+ BacklightStretching 0
+ Softness 2
+ DepthScale 1
+ CameraBlendFar 2
+}
