@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1F63B62DAB359AE8}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/DSK_FOB_II.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

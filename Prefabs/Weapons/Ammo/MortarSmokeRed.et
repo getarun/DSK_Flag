@@ -29,12 +29,13 @@ Projectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/Ammo_127x99_Ball_M33.et" {
    ProjectileEffects {
     ProjectileDamage "{5168BBF3DBD79134}" {
      TriggerOnce 1
-     DamageValue 2000
+     DamageValue 0
     }
     ExplosionEffect "{85DB664DDCA5D5B0}" {
      TriggerOnce 1
     }
     ProjectileDamage "{6246FCE1A321B129}" {
+     Enabled 0
      DamageType Incendiary
      DamageEffects {
       SCR_IncendiaryBulletDamageEffect "{6246FCE1A321B12A}" {

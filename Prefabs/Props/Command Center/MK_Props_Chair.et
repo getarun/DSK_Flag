@@ -1,0 +1,9 @@
+StaticModelEntity : "{5EC6836A5694F691}Prefabs/Props/Military/Furniture/FurnitureMilitary_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  GenericEntity : "{F94ED677BED6149D}Prefabs/Vehicles/Wheeled/Ural4320/Sit_Base/Sit_N1_1.et" {
+   ID "62471D21E4CB3538"
+   coords -0.042 0.574 0.093
+  }
+ }
+}

@@ -18,6 +18,14 @@ GenericEntity : "{49AD6AE2D4EB0C52}Prefabs/Compositions/Misc/CustomEntities/Dest
    coords 4.506 0.463 -5.321
   }
   GameEntity {
+   ID "623B36AD9746D535"
+   components {
+    Hierarchy "{62471D2F970B20FE}" {
+    }
+   }
+   coords -0.086 0.874 -6.055
+  }
+  GameEntity {
    ID "623B36AD9746D536"
    components {
     Hierarchy "{623B53D95368B960}" {
@@ -96,11 +104,19 @@ GenericEntity : "{49AD6AE2D4EB0C52}Prefabs/Compositions/Misc/CustomEntities/Dest
     $grp GenericEntity : "{8BB5855208F77724}Prefabs/Props/Furniture/BenchWooden_01.et" {
      {
       ID "623CEBE26258FE07"
+      components {
+       Hierarchy "{62471D2E51CA2EE2}" {
+       }
+      }
       coords 4.494 0 -5.326
       angleY -84.145
      }
      {
       ID "623CEBE26258FEDA"
+      components {
+       Hierarchy "{62471D2E5AF7092E}" {
+       }
+      }
       coords -4.747 0 -6.406
       angleY 90.245
      }
