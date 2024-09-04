@@ -16,8 +16,8 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    m_UIInfo SCR_EditableEntityUIInfo "{624779B039B219E5}" {
     Name "FOB III"
     Description "With Bunker and supply depot"
-    Icon "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
-    m_Image "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
+    Icon "{09416DB369FC0282}DSK_FOB_III_preview.edds"
+    m_Image "{09416DB369FC0282}DSK_FOB_III_preview.edds"
     m_aAuthoredLabels {
      1001
     }
@@ -534,7 +534,6 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
      }
     }
     coords -0.607 2.324 23.863
-    angleY 0
    }
    {
     ID "62480492178DFEEC"
@@ -1491,14 +1490,15 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
    ID "624779B039B51200"
    components {
+    SCR_EditableEntityVisibilityChildComponent "{52E85C13CD591EDA}" {
+     m_State 98
+    }
     SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
      DisplayName "FOB"
     }
-    SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
-     m_fHeight 0.5
-    }
    }
-   coords -3.862 -0.549 5.515
+   coords -3.862 0.612 5.515
+   Flags 2
    m_fSpawnRadius 5
    m_fSpawnPositionUsageRange 5
    m_fRespawnTime 5

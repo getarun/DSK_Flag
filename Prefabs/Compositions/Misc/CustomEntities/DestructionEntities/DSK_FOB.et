@@ -15,8 +15,8 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   SCR_EditableEntityComponent "{6238B355276B86F8}" {
    m_UIInfo SCR_EditableEntityUIInfo "{6238B355276B86EA}" {
     Name "FOB"
-    Icon "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
-    m_Image "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
+    Icon "{791885000F71CF18}DSK_FOB_preview.edds"
+    m_Image "{791885000F71CF18}DSK_FOB_preview.edds"
     m_aAuthoredLabels {
      1001
     }
@@ -1045,8 +1045,11 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
      DisplayName "FOB"
     }
+    SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
+     m_fHeight 1
+    }
    }
-   coords -3.862 -0.549 5.515
+   coords -3.862 0.611 5.515
    m_fSpawnRadius 5
    m_fSpawnPositionUsageRange 5
    m_fRespawnTime 5

@@ -16,8 +16,8 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    m_UIInfo SCR_EditableEntityUIInfo "{6246C3EF0A61CFDA}" {
     Name "FOB M119"
     Description "FOB with M119 (smoke)"
-    Icon "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
-    m_Image "{A330D3EEE47E7F40}DSK_FOB_Husky.edds"
+    Icon "{9135F836433077D0}DSK_FOB_M119_preview.edds"
+    m_Image "{9135F836433077D0}DSK_FOB_M119_preview.edds"
     m_aAuthoredLabels {
      1001
     }
@@ -848,6 +848,9 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    components {
     SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
      DisplayName "FOB"
+    }
+    SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
+     m_fHeight 1
     }
    }
    coords -3.862 -0.549 5.515
