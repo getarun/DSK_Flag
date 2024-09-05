@@ -1,8 +1,0 @@
-MatPBRBasic {
- CastShadow 0
- BlendMode None
- BCRMap "{B4EB2674140D998D}Prefabs/Items/Equipment/Patches/Data/GRANITPatch.edds"
- GlobalMapsUVTransform MatUVTransform "{62275794440B6AB9}" {
-  Rotation 180
- }
-}

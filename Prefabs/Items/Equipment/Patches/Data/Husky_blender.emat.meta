@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5DA6F3355D8486CB}Prefabs/Items/Equipment/Patches/Data/Husky_blender.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

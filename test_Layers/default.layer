@@ -2020,3 +2020,6 @@ GenericEntity : "{F46C6077DEF7CC9A}Prefabs/E_DSK_Sign_Jaeger.et" {
 GameEntity : "{F4DEA5E6B51A40F5}Prefabs/Items/Equipment/Patches/DSK_Patch_PGren_2.et" {
  coords 144.605 2.026 97.518
 }
+GameEntity : "{F7C3D8F2ECB4565E}Prefabs/Items/Equipment/Patches/DSK_Patch_Husky_blender.et" {
+ coords 144.69 2.051 97.326
+}

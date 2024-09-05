@@ -1,0 +1,11 @@
+MatPBRBasic {
+ CastShadow 0
+ BlendMode None
+ BCRMap "{2916E2B55B9E889B}DSK_Patch_Transpo_blender.edds"
+ GlobalMapsUVTransform MatUVTransform "{62275794440B6AB9}" {
+  Rotation 180
+ }
+ ParallaxScale 0.025
+ ParallaxMidlePlane 0
+ ParallaxShadowScale 0.48
+}

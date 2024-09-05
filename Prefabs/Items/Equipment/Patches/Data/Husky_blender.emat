@@ -1,0 +1,8 @@
+MatPBRBasic {
+ CastShadow 0
+ BlendMode None
+ BCRMap "{DD596FF720134BE4}DSK_Patch_Husky_blender.edds"
+ GlobalMapsUVTransform MatUVTransform "{62275794440B6AB9}" {
+  Rotation 180
+ }
+}

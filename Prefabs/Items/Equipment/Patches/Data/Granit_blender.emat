@@ -1,0 +1,7 @@
+MatPBRBasic {
+ CastShadow 0
+ BlendMode None
+ BCRMap "{3111885CFFBCA04E}DSK_Patch_Granit_blender.edds"
+ GlobalMapsUVTransform MatUVTransform "{62275794440B6AB9}" {
+ }
+}
