@@ -13,7 +13,7 @@ TracerProjectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/Ammo_127x99_Ball_M33.
   CollisionTriggerComponent "{6246DC0CA7F6729E}" {
    PROJECTILE_EFFECTS {
     ExplosionEffect "{6246DC0CA7F6729B}" {
-     EffectPrefab "{BF8E759B6D897629}Prefabs/Weapons/Warheads/Warhead_arty_Smoke.et"
+     EffectPrefab "{FAA2743AF2CBDEE6}Prefabs/Weapons/Warheads/Warhead_arty_Smoke_2.et"
      ParticleEffect "{9A5B65D217DB3216}M119/arty_smoke_red.ptc"
      SoundEvent "SOUND_EXPLOSION"
     }

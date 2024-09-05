@@ -1,0 +1,53 @@
+Projectile : "{D40A105437369C1D}Prefabs/Weapons/Core/Ammo_GrenadeLauncher_Base.et" {
+ ID "50C6F965BA00F9FA"
+ components {
+  CollisionTriggerComponent "{624ABCE32A24F8A0}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{624ABCE32A24F8B1}" {
+     EffectPrefab "{620E8AF45A5143D7}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_M406.et"
+     ParticleEffect "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{624ABCE32A24F885}" {
+    }
+   }
+   SafetyDistance 15
+  }
+  InventoryItemComponent "{52627A12350994B6}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{52627A1234AD20A4}" {
+    ItemDisplayName UIInfo "{624ABCE32A24F88C}" {
+     Name "#AR-Magazine_M433_Name"
+     Description "#AR-Magazine_M433_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{624ABCE32A24F88B}" {
+     Weight 0.23
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 100
+    }
+    m_Size SLOT_1x1
+   }
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{0B14D71F69360619}Assets/Weapons/Ammo/Grenades/M433/M433.xob"
+  }
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeed 77
+   InitSpeedVariation 0.385
+   ProjectileEffects {
+    AIHitEffect "{624ABCE32A24F89E}" {
+    }
+   }
+   BallisticTableConfig "{E21489D6FC1E47B9}Configs/Weapons/AIBallisiticTables/AIBT_Grenade_HEDP_M433.conf"
+   AirDrag 0.00031
+  }
+  RplComponent "{5188CD84136622B4}" {
+   Enabled 0
+  }
+  Hierarchy "{624ABCE32A24F8E0}" {
+  }
+ }
+ ProjectileModel "{D79EBB1BB388141E}Assets/Weapons/Ammo/Grenades/M433/M433_projectile.xob"
+ CartridgeModel "{0B14D71F69360619}Assets/Weapons/Ammo/Grenades/M433/M433.xob"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{33985DAA9F5F6408}Prefabs/Structures/Civilian/BoardMap_01/BoardMap_01_AllMaps_images.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -25,6 +25,9 @@ GameEntity : "{332D62DF478A913E}Prefabs/Items/Equipment/Patches/DSK_Patch_Granit
 GenericEntity : "{3595AAE7C54B39CC}Prefabs/WallMap_01_AllMaps.et" {
  coords 139.059 2.426 95.22
 }
+GameEntity : "{3ED6CEC967516619}Prefabs/Items/Equipment/Patches/DSK_Patch_FSchJaeger_blender.et" {
+ coords 144.508 2.04 97.328
+}
 GenericEntity : "{51CB13D927A9D6B3}Prefabs/E_DSK_Sign_PGren.et" {
  coords 141.037 1 98.407
 }

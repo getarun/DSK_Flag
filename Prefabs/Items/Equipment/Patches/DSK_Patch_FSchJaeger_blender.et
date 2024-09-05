@@ -1,0 +1,24 @@
+GameEntity : "{FEDC7DA627D89A65}Prefabs/Items/Equipment/Patches/Patch_RU_Flag_Reflective.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "DSK Patch FSchJaeger Blender"
+     Description "DSK Patch FSchJaeger Blender"
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Object "{5F50F3C6F7AAD73B}FschJg_patch1.xob"
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   WornMaterialsOverride {
+    "{6C89ADA2F235A1BA}Prefabs/Items/Equipment/Patches/Data/FSchJaeger_blender.emat"
+   }
+   ItemMaterialsOverride {
+    "{6C89ADA2F235A1BA}Prefabs/Items/Equipment/Patches/Data/FSchJaeger_blender.emat"
+   }
+  }
+ }
+}

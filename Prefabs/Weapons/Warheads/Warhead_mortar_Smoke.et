@@ -1,0 +1,47 @@
+GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{F02C2178C22332D1}Mortars/Weapons_Grenade_Generic_NoShrapnell_deep.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{624ABCE17BF956D7}" {
+     ExplosionEffects {
+      BaseExplosionDamage "{6112B155B06C5B89}" : "{3BE7AB8C8BD42E9B}Prefabs/Weapons/Core/Damage/BlastDamageEffect.conf" {
+       DamageValue 0
+       DamageDistance 19
+      }
+      ExplosionImpulseEffect "{6112B155B7C6897F}" : "{FB1F33936312F72B}Prefabs/Weapons/Core/Damage/BlastImpulseEffect.conf" {
+       DamageValue 1.5
+       DamageDistance 19
+      }
+      ExplosionFragmentationEffect "{6112B1554A6DCB1F}" : "{D865ECB9F1A819E9}Prefabs/Weapons/Core/Damage/FragmentationDamageEffect.conf" {
+       DamageValue 20
+       DamageDistance 27
+       GurneyConstant 3000
+       CaseWeight 450
+      }
+      BaseExplosionDamage "{6112B15565141390}" : "{ACBA86677A85EA46}Prefabs/Weapons/Core/Damage/IncendiaryDamageEffect.conf" {
+       DamageValue 13
+       DamageDistance 15
+      }
+     }
+     ChargeWeight 400
+     TntEquivalent 2
+    }
+    SpawnDecalEffect "{624ABCE17BF95635}" {
+     Scale 3
+     Material "{D73EF1B0C42AD52E}Assets/Decals/Logistics/Data/Logistics_Explosion_Decal_Large.emat"
+    }
+   }
+   TriggerOffset -0.05
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+  }
+ }
+ coords 0 0 0
+}

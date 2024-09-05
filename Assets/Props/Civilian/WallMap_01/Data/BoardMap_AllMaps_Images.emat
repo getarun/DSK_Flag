@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Color 1 1 0.815 1
+ DiffuseIBL 0.591 0.591 0.591 1
+ Diffuse 0.658 0.658 0.658 1
+ Specular 0.515 0.515 0.515 1
+ MetalnessScale 0
+ BCRMap "{E3537E50C01AF0A1}DSK_BoardMap_AllMaps_Images.edds"
+ NMOMap "{579B921646232DC5}Assets/_SharedData/Wallpaper/ST_Wallpaper_01_NMO.edds"
+ DetailNormalPower 0.667
+ DetailNormalMap "{579B921646232DC5}Assets/_SharedData/Wallpaper/ST_Wallpaper_01_NMO.edds"
+}

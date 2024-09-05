@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6C89ADA2F235A1BA}Prefabs/Items/Equipment/Patches/Data/FSchJaeger_blender.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

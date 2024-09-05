@@ -1,0 +1,8 @@
+MatPBRBasic {
+ CastShadow 0
+ BlendMode None
+ BCRMap "{7D8AD3F04C9645A4}DSK_Patch_FschJaeger_blender.edds"
+ GlobalMapsUVTransform MatUVTransform "{62275794440B6AB9}" {
+  Rotation 180
+ }
+}

@@ -1,0 +1,51 @@
+GenericEntity : "{6B33C7FD1918B48B}Prefabs/Structures/Civilian/BoardMap_01/BoardMap_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{624B05B3227E7C1B}" {
+     SourceMaterial "BoardMap_01_texture"
+     AssignedMaterial "{61A6F964B0E0C865}Assets/Props/Civilian/WallMap_01/Data/BoardMap_AllMaps_Images.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{624B05B325301AB9}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{624B05B325301A8E}" {
+    Name "BoardMap All Maps Images"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     1 121 1001
+    }
+   }
+   m_vIconPos 0 0 0
+  }
+  SCR_PreviewEntityComponent "{624B05B325301A8B}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{624B05B325301A95}" {
+     m_iParentID -1
+     m_Mesh "{1095E0ABB62CEB03}Assets/Structures/Civilian/BoardMap_01/BoardMap_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "624B05B325301953"
+   components {
+    MeshObject "{624B05B325301A9E}" {
+     Object "{3F3A782D1325ED58}Assets/Structures/Civilian/BoardMap_01/BoardMap_01_text.xob"
+    }
+    Hierarchy "{624B05B594398F10}" {
+    }
+   }
+   coords -0.005 2.149 0.028
+   scale 0.95
+  }
+ }
+}

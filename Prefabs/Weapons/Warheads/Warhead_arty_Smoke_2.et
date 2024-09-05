@@ -1,0 +1,37 @@
+GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{7400F00B53115F5C}Sounds/Weapons/Grenades/Weapons_Grenade_Generic_NoShrapnell.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{624ABCE79A910E3C}" {
+     ExplosionEffects {
+      BaseExplosionDamage "{6112B155B06C5B89}" : "{3BE7AB8C8BD42E9B}Prefabs/Weapons/Core/Damage/BlastDamageEffect.conf" {
+       DamageValue 0
+       PerformTraces 0
+       DamageDistance 5
+      }
+      ExplosionImpulseEffect "{6112B155B7C6897F}" : "{FB1F33936312F72B}Prefabs/Weapons/Core/Damage/BlastImpulseEffect.conf" {
+       DamageDistance 5
+      }
+      BaseExplosionDamage "{6112B15565141390}" : "{ACBA86677A85EA46}Prefabs/Weapons/Core/Damage/IncendiaryDamageEffect.conf" {
+       DamageValue 5
+       DamageDistance 5
+      }
+     }
+     ChargeWeight 200
+     TntEquivalent 0.5
+    }
+    SpawnDecalEffect "{624ABCE79A910E65}" {
+     Scale 3
+     Material "{D73EF1B0C42AD52E}Assets/Decals/Logistics/Data/Logistics_Explosion_Decal_Large.emat"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

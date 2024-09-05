@@ -1,0 +1,32 @@
+GenericEntity : "{022E370A593D62DE}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "MK-19 40mm HE (Tripod)"
+     Description "40mm HE 32rnd for the Mk-19 tripod"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellAGSt "{624ABCE346C0A45C}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "Mk-19 40mm 32rnd (Tripod)"
+    Description "40mm HE ammo for the Mk-19 tripod"
+    m_sAmmoCaliber "40mm"
+    m_sAmmoType "HE"
+   }
+   ItemModel "{7A7C09E7AF558A66}mk19/mk19mag.xob"
+   MaxAmmo 32
+   AmmoConfig "{B6C7A5D0B484A988}mk19/Ammo_40mm.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{7A7C09E7AF558A66}mk19/mk19mag.xob"
+  }
+ }
+}

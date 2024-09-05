@@ -1,0 +1,94 @@
+GenericEntity {
+ ID "624ABCE297AC043D"
+ components {
+  RigidBody "{624ABCE297AC0412}" {
+  }
+  SCR_CampaignBuildingCompositionComponent "{624ABCE297AC041B}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{624ABCE297AC0463}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_HEDGEHOG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{624ABCE297AC0468}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_HEDGEHOG"
+    m_eFlags 5
+   }
+  }
+  SCR_EditableEntityComponent "{624ABCE297AC046A}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{624ABCE297AC0474}" {
+    Name "Mk-19 Tripod"
+    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
+    m_Image "{B6494426CB1C98E9}Artythings/mk19.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     108 11
+    }
+    m_aAutoLabels {
+     5 121
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{624ABCE297AC0470}" {
+      m_BudgetType CAMPAIGN
+      m_Value 350
+     }
+     SCR_EntityBudgetValue "{624ABCE297AC0472}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{624ABCE297AC047C}" {
+      m_Value 1
+     }
+    }
+   }
+   m_Flags 132355
+  }
+  SCR_EditorLinkComponent "{624ABCE297AC047A}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{624ABCE297AC0444}" {
+     m_Prefab "{892983848E4077A8}mk19/Tripod_M122_mk19.et"
+     m_vPosition 0 0.25 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{624ABCE297AC0446}" {
+  }
+  ActionsManagerComponent "{624ABCE297AC0442}" {
+   ActionContexts {
+    UserActionContext "{624ABCE297AC045C}" {
+     ContextName "Disassembly"
+     Position PointInfo "{624ABCE297AC0459}" {
+      Offset 0 0.5 0
+     }
+     Radius 5
+     Height 0
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{624ABCE297AC05A5}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{624ABCE297AC05A6}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly-UC"
+     }
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{624ABCE297AC05A3}" {
+  }
+  Hierarchy "{624ABCE297AC05AD}" {
+  }
+ }
+ coords 0 0 0
+ {
+  Turret : "{892983848E4077A8}mk19/Tripod_M122_mk19.et" {
+   ID "624ABCE297AC043C"
+   coords 0 0.25 0
+   Flags 1048576
+  }
+ }
+}
