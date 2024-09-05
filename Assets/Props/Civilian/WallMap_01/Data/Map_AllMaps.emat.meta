@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DE4173070BDBFDC1}Assets/Props/Civilian/WallMap_01/Data/Map_AllMaps.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

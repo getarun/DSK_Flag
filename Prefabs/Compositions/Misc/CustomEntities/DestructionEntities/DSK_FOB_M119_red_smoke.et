@@ -22,7 +22,7 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
      1001
     }
     m_aAutoLabels {
-     5 280 23
+     5 38
     }
    }
   }
@@ -846,8 +846,13 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
    ID "6246C3EF0A79F474"
    components {
+    SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+     m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+      Name "FOB M119"
+     }
+    }
     SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
-     DisplayName "FOB"
+     DisplayName "FOB M119"
     }
     SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
      m_fHeight 1

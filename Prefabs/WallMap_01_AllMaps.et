@@ -1,0 +1,46 @@
+GenericEntity : "{DCBC472CDA3EA9B2}Prefabs/Props/Civilian/WallMap_01.et" {
+ ID "527C88289D9C54C0"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{62497BA7617A92E6}" {
+     SourceMaterial "Map_01_Map"
+     AssignedMaterial "{DE4173070BDBFDC1}Assets/Props/Civilian/WallMap_01/Data/Map_AllMaps.emat"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{58AAE805A2532530}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Map All Maps"
+    Icon "{8FDD403B1D9BA66F}AllMaps_preview.edds"
+    m_Image "{8FDD403B1D9BA66F}AllMaps_preview.edds"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     1 121 1001
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{58AAE805A25265FE}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{62497BA69BA56C5F}" {
+     m_iParentID -1
+     m_Mesh "{D0C561ECDD48AC28}Assets/Props/Civilian/WallMap_01/WallMap_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{58AAE805A2533936}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
+  Hierarchy "{62497BA69BA56DAD}" {
+  }
+ }
+ coords 5.414 1.009 21.595
+ angleY 0
+}

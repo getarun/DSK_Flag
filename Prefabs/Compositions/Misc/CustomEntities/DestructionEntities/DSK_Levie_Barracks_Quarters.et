@@ -1,4 +1,4 @@
-GenericEntity : "{49AD6AE2D4EB0C52}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/DSK_Levie_Barracks_Quarters_WIP.et" {
+GenericEntity {
  ID "623B36AD97472DB4"
  components {
   SCR_EditableEntityComponent "{623B36AD97463EAA}" {
@@ -9,116 +9,120 @@ GenericEntity : "{49AD6AE2D4EB0C52}Prefabs/Compositions/Misc/CustomEntities/Dest
  }
  coords 0 0 0
  {
-  GameEntity {
-   ID "623B36AD9746A9D9"
-   components {
-    Hierarchy "{623B53D956AF9B5F}" {
-    }
-   }
-   coords 4.506 0.463 -5.321
-  }
-  GameEntity {
-   ID "623B36AD9746D535"
-   components {
-    Hierarchy "{62471D2F970B20FE}" {
-    }
-   }
-   coords -0.086 0.874 -6.055
-  }
-  GameEntity {
-   ID "623B36AD9746D536"
-   components {
-    Hierarchy "{623B53D95368B960}" {
-    }
-   }
-   coords -4.747 0.502 -6.5
-  }
-  GenericEntity {
-   ID "623B36A9F34B1098"
-   coords 0.084 0.153 -9.503
-  }
-  GenericEntity {
-   ID "623B36A9F34B10F8"
-   coords -3.395 -0.056 -9.84
-  }
-  GenericEntity {
-   ID "623B36AD974749F3"
-   coords 1.266 0.048 4.534
-  }
-  GenericEntity {
-   ID "623B53D66070770E"
-   components {
-    Hierarchy "{623C1033E8F4E11A}" {
-    }
-   }
-   coords 3.104 0 4.63
-   angleY 175.726
-  }
-  GenericEntity {
-   ID "623B53D660707748"
-   components {
-    Hierarchy "{623C1033ED25CAF3}" {
-    }
-   }
-   coords 3.099 1.281 4.477
-   angleY 175.726
-  }
-  GenericEntity {
-   ID "623B53D6607078A0"
-   components {
-    Hierarchy "{623C1033D52FCFFB}" {
-    }
-   }
-   coords -4.795 -0.011 4.086
-   angleY -2.112
-  }
-  GenericEntity {
-   ID "623B53D6607078B9"
-   components {
-    Hierarchy "{623C1033D12D974C}" {
-    }
-   }
-   coords -4.919 1.296 4.017
-   angleY -2.112
-  }
-  GenericEntity {
-   ID "623CEBE1D9FA5506"
-   components {
-    Hierarchy "{623CEBE2668DF06C}" {
-    }
-   }
-   coords 0 0 0
+  $grp GameEntity {
    {
-    $grp StaticModelEntity : "{31F69EA0C0143F1D}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Notebook_US_01.et" {
-     {
-      ID "623CEBE1D9FA5504"
-      coords -5.111 0 -0.683
-      angleY -90.586
-     }
-     {
-      ID "623CEBE1D9FA5507"
-      coords 3.948 0 0.003
-      angleY -90.125
+    ID "623B36AD9746A9D9"
+    components {
+     Hierarchy "{623B53D956AF9B5F}" {
      }
     }
-    $grp GenericEntity : "{8BB5855208F77724}Prefabs/Props/Furniture/BenchWooden_01.et" {
-     {
-      ID "623CEBE26258FE07"
-      components {
-       Hierarchy "{62471D2E51CA2EE2}" {
-       }
-      }
-      coords 4.494 0 -5.326
-      angleY -84.145
+    coords 4.506 0.463 -5.321
+   }
+   {
+    ID "623B36AD9746D535"
+    components {
+     Hierarchy "{62471D2F970B20FE}" {
      }
-     {
-      ID "623CEBE26258FEDA"
-      components {
-       Hierarchy "{62471D2E5AF7092E}" {
-       }
+    }
+    coords -0.086 0.874 -6.055
+   }
+   {
+    ID "623B36AD9746D536"
+    components {
+     Hierarchy "{623B53D95368B960}" {
+     }
+    }
+    coords -4.747 0.502 -6.5
+   }
+  }
+  $grp GenericEntity {
+   {
+    ID "623B36A9F34B1098"
+    coords 0.084 0.153 -9.503
+   }
+   {
+    ID "623B36A9F34B10F8"
+    coords -3.395 -0.056 -9.84
+   }
+   {
+    ID "623B36AD974749F3"
+    coords 1.266 0.048 4.534
+   }
+   {
+    ID "623B53D66070770E"
+    components {
+     Hierarchy "{623C1033E8F4E11A}" {
+     }
+    }
+    coords 3.104 0 4.63
+    angleY 175.726
+   }
+   {
+    ID "623B53D660707748"
+    components {
+     Hierarchy "{623C1033ED25CAF3}" {
+     }
+    }
+    coords 3.099 1.281 4.477
+    angleY 175.726
+   }
+   {
+    ID "623B53D6607078A0"
+    components {
+     Hierarchy "{623C1033D52FCFFB}" {
+     }
+    }
+    coords -4.795 -0.011 4.086
+    angleY -2.112
+   }
+   {
+    ID "623B53D6607078B9"
+    components {
+     Hierarchy "{623C1033D12D974C}" {
+     }
+    }
+    coords -4.919 1.296 4.017
+    angleY -2.112
+   }
+   {
+    ID "623CEBE1D9FA5506"
+    components {
+     Hierarchy "{623CEBE2668DF06C}" {
+     }
+    }
+    coords 0 0 0
+    {
+     $grp StaticModelEntity : "{31F69EA0C0143F1D}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Notebook_US_01.et" {
+      {
+       ID "623CEBE1D9FA5504"
+       coords -5.111 0 -0.683
+       angleY -90.586
       }
-      coords -4.747 0 -6.406
-      angleY 90.245
+      {
+       ID "623CEBE1D9FA5507"
+       coords 3.948 0 0.003
+       angleY -90.125
+      }
+     }
+     $grp GenericEntity : "{8BB5855208F77724}Prefabs/Props/Furniture/BenchWooden_01.et" {
+      {
+       ID "623CEBE26258FE07"
+       components {
+        Hierarchy "{62471D2E51CA2EE2}" {
+        }
+       }
+       coords 4.494 0 -5.326
+       angleY -84.145
+      }
+      {
+       ID "623CEBE26258FEDA"
+       components {
+        Hierarchy "{62471D2E5AF7092E}" {
+        }
+       }
+       coords -4.747 0 -6.406
+       angleY 90.245
+      }
      }
     }
    }

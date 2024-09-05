@@ -82,7 +82,7 @@ GenericEntity : "{842D220FF4EFF2A8}Prefabs/Weapons/HeavyWeapons/NSV/HMG_NSV_base
       Offset 0 -3.8129 -3.7703
       ChildPivotID ""
      }
-     MagazineTemplate "{AC059A8723E768CF}M119/105mmSmoke_empty.et"
+     MagazineTemplate "{AC059A8723E768CF}M119/105mmSmoke_Red_5.et"
     }
    }
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {

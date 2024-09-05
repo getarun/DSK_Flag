@@ -1,0 +1,82 @@
+GameEntity : "{4597EA9A4675EED1}Prefabs/Structures/Core/Ladder_Base.et" {
+ ID "50D6C55BB04A2F5B"
+ components {
+  LadderComponent "{588EECC514BB6DFC}" {
+   BottomFrontPositionInfo PointInfo "{6248C41536D67C9B}" {
+    Offset -0.3353 1.9184 -0.1968
+    Angles 0 51.8614 0
+   }
+   TopFrontPositionInfo PointInfo "{6248C41536D67C80}" {
+    Offset -0.4365 13.2127 -0.2889
+    Angles 0 -125.0411 0
+   }
+   TopVariant WithHandles
+  }
+  MeshObject "{50D6C55BB04A2F5C}" {
+   Object "{B24911C8486B317B}Assets/Props/Billboards/MK_Billboard_02.xob"
+  }
+  NavmeshCustomLinkComponent "{5864FBEBC033681B}" {
+   LinkType NavmeshLadderLink "{5864FBEBC61E398E}" {
+    "Navmesh setting presets" {
+     NavmeshCustomLinkSetting "{6248C41536D67CF2}" {
+      BeginPoint 0 -4 0.5
+      EndPoint 0 0 -0.5
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{5916A63C9331DAB0}" {
+   ActionContexts {
+    UserActionContext "{5916A63C9D2ABA4A}" {
+     Position PointInfo "{5916A63C9B51DDAE}" {
+      Offset -0.4525 12.5037 -0.2948
+      Angles 0 -124.4809 0
+     }
+    }
+    UserActionContext "{5916A63C9CED0D8A}" {
+     Position PointInfo "{5916A63CE468E545}" {
+      Offset -0.4814 2.0164 -0.3494
+      Angles 0 -124.72269 0
+     }
+    }
+   }
+  }
+ }
+ Flags 1027
+ {
+  $grp LightEntity : "{56E92AD2A1D3DE56}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/LightPrefabs/mk_LampStreet_E_01_light.et" {
+   {
+    ID "6248C41536D67CAA"
+    coords 3.216 11.157 3.638
+    angleX 58.705
+    angleY 164.979
+    LV 6
+    Radius 15
+   }
+   {
+    ID "6248C41536D67CAC"
+    coords -0.542 11.157 2.629
+    angleX 58.705
+    angleY 164.979
+    LV 6
+    Radius 15
+   }
+   {
+    ID "6248C41536D9C4DC"
+    coords 1.01 11.157 -2.46
+    angleX 58.705
+    angleY -20.997
+    LV 6
+    Radius 15
+   }
+   {
+    ID "6248C41536D9C4DD"
+    coords 4.643 11.157 -1.066
+    angleX 58.705
+    angleY -20.997
+    LV 6
+    Radius 15
+   }
+  }
+ }
+}

@@ -22,7 +22,7 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
      1001
     }
     m_aAutoLabels {
-     5 280 23
+     5 280 906 30
     }
    }
   }
@@ -758,15 +758,6 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     angleY -1.781
    }
    {
-    ID "624779B039A180E2"
-    components {
-     Hierarchy "{624779B039B218A9}" {
-     }
-    }
-    coords -9.708 -0.209 -4.042
-    angleY -91.973
-   }
-   {
     ID "624779B039A213B1"
     components {
      Hierarchy "{624779B039B218CC}" {
@@ -827,15 +818,6 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
      }
     }
     coords 12.374 -0.209 13.299
-    angleY -1.781
-   }
-   {
-    ID "624779B039A3A88B"
-    components {
-     Hierarchy "{624779B039B218CB}" {
-     }
-    }
-    coords -15.244 -0.209 0.19
     angleY -1.781
    }
    {
@@ -1493,8 +1475,16 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     SCR_EditableEntityVisibilityChildComponent "{52E85C13CD591EDA}" {
      m_State 98
     }
+    SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+     m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+      Name "FOB III"
+     }
+    }
     SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
-     DisplayName "FOB"
+     DisplayName "FOB III"
+    }
+    SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
+     m_fHeight 1
     }
    }
    coords -3.862 0.612 5.515

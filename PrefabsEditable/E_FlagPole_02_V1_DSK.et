@@ -20,7 +20,7 @@ GenericEntity : "{160E4E4110803F26}Prefabs/Structures/Military/Flags/FlagPole_02
   }
   SCR_PreviewEntityComponent "{61ED22E08AFFBA2C}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 0
-   m_PreviewPrefab "{6B127A91C658BE17}PrefabsEditable/Auto/Structures/Signs/Military/E_FlagPole_02_V1_DSK.et"
+   m_PreviewPrefab "{6B127A91C658BE17}PrefabsEditable/E_FlagPole_02_V1_DSK.et"
    m_aEntries {
     SCR_BasePreviewEntry "{61ED22E08AFFC15D}" {
      m_iParentID -1

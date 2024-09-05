@@ -21,7 +21,7 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
      1001
     }
     m_aAutoLabels {
-     5 280 23
+     5 280 30
     }
    }
   }
@@ -747,10 +747,6 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     angleY -91.973
    }
   }
-  GenericEntity : "{5BA978B9D36641DD}Prefabs/Props/Military/Compositions/USSR/Antenna_01_USSR.et" {
-   ID "62471D2A48C93718"
-   coords 7.232 0.05 12.838
-  }
   GenericEntity : "{6204943E9EC70EC2}Prefabs/Structures/Military/Camps/Canvas_Covers/US/CanvasCover_Medium_US.et" {
    ID "62471D2CB043B1C6"
    components {
@@ -782,6 +778,14 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
     ID "62471D2CB042EBAF"
     coords 5.33 1.112 19.283
    }
+  }
+  GenericEntity : "{A1697FD5012C105D}Prefabs/Props/Military/Antennas/Antenna_US_02/Antenna_US_02.et" {
+   ID "624829C95C53DEA4"
+   components {
+    Hierarchy "{624829C955352DDE}" {
+    }
+   }
+   coords 5.151 0.038 9.353
   }
   GenericEntity : "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et" {
    ID "62471D2CB0404A73"
@@ -853,8 +857,13 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
    ID "62471D2CB040E866"
    components {
+    SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+     m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+      Name "FOB HQ"
+     }
+    }
     SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
-     DisplayName "FOB"
+     DisplayName "FOB HQ"
     }
     SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
      m_fHeight 1
@@ -870,15 +879,23 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    coords 7.942 -0.216 -0.171
    angleY -1.781
   }
-  $grp GenericEntity : "{DD49716491710760}Prefabs/Props/Military/Compositions/FIA/Antenna_01_FIA.et" {
-   {
-    ID "62471D2A48C93708"
-    coords 1.911 0.062 16.894
+  GenericEntity : "{DD49716491710760}Prefabs/Props/Military/Compositions/FIA/Antenna_01_FIA.et" {
+   ID "62471D2A48C93708"
+   components {
+    SCR_AntennaServicePointComponent "{5CB8818C79A7B643}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5CB6D5B3749D59C3}" {
+     Enabled 0
+    }
+    ScriptedRadioComponent "{5CB8818C71F12C73}" {
+     Enabled 0
+    }
+    RplComponent "{5CB6D5B3749D59BC}" {
+     Enabled 0
+    }
    }
-   {
-    ID "62471D2A48C93729"
-    coords 1.31 0.047 6.693
-   }
+   coords 5.015 0.062 20.092
   }
   $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
    {

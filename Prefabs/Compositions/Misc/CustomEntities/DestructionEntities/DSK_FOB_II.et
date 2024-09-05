@@ -21,7 +21,7 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
      1001
     }
     m_aAutoLabels {
-     5 280 23
+     5 280 30 906
     }
    }
   }
@@ -770,6 +770,10 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   $grp StaticModelEntity : "{55973C5B0950D4AB}Prefabs/Props/Military/Furniture/ChairMilitary_US_01.et" {
    {
     ID "62475325C38FC256"
+    components {
+     Hierarchy "{624829CD5D4EE6FB}" {
+     }
+    }
     coords 8.76 0.27 20.153
     angleY -121.907
    }
@@ -1340,8 +1344,11 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
    ID "62473C9C419C55C0"
    components {
+    SCR_EditableEntityVisibilityChildComponent "{52E85C13CD591EDA}" {
+     m_State 98
+    }
     SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
-     DisplayName "FOB"
+     DisplayName "FOB II"
     }
     SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
      m_fHeight 1

@@ -1,10 +1,8 @@
 GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
  ID "F0DBA538AC2A0552"
  components {
-  MapDescriptorComponent "{623C54DC3475DBC2}" {
+  MapDescriptorComponent "{62483BE09449E88A}" {
    Enabled 0
-   DisplayName "asd"
-   MainType "Name City"
   }
   RigidBody "{5872F0EB7DFB5A9D}" {
    ResponseIndex "NoCollision"
@@ -21,7 +19,7 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
      1001
     }
     m_aAutoLabels {
-     5 280 23
+     5 280 30 903
     }
    }
   }
@@ -32,8 +30,7 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    ForceGroupScale 1
   }
   SCR_MilitaryBaseMapDescriptorComponent "{623C54DF8BCABFEC}" {
-   Enabled 0
-   DisplayName "asd"
+   DisplayName "FOBa"
    ImagesetQuadElement "1"
    MainType Spawnpoint
    m_GraphLinesData SCR_GraphLinesData "{623C54DF9DA9A48A}" {
@@ -1042,8 +1039,13 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
   SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
    ID "623C7D0934542FBE"
    components {
-    SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
-     DisplayName "FOB"
+    SCR_EditableEntityVisibilityChildComponent "{52E85C13CD591EDA}" {
+     m_State 98
+    }
+    SCR_EditableSpawnPointComponent "{52E65E94E3532698}" {
+     m_UIInfo SCR_EditableDescriptorUIInfo "{52E65E94C47560A2}" {
+      Name ""
+     }
     }
     SCR_SpawnPointAreaMeshComponent "{56C25DC99E04349A}" {
      m_fHeight 1
@@ -1051,6 +1053,10 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    }
    coords -3.862 0.611 5.515
    m_fSpawnRadius 5
+   m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+    Name "FOB"
+    Icon "{241DCED38AC0BAFA}DSK_clean.edds"
+   }
    m_fSpawnPositionUsageRange 5
    m_fRespawnTime 5
   }
@@ -1395,9 +1401,13 @@ GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et"
    components {
     SCR_EditableCommentComponent "{529AB059519FE609}" {
      Enabled 0
+     m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+      Name "FOB"
+     }
     }
     SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
      Enabled 0
+     DisplayName "FOB"
      ForceGroupScale 5
     }
    }

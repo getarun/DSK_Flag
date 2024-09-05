@@ -1,0 +1,17 @@
+GenericEntity : "{7A02AC172076EC55}Prefabs/World/Locations/Common/Urban/LocationUrbanGeneric_Airport.et" {
+ ID "5278CCE9842C9D03"
+ components {
+  SCR_EditableCommentComponent "{529AB059519FE609}" {
+   m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+    m_ContentBrowserLabelConfig SCR_EditorContentBrowserDisplayConfig "{5EA87EE17A4C49EB}" : "{1A22634F75F8CC12}Configs/Editor/ContentBrowser/StaticCompositions/ContentBrowserLabelConfig_StaticEden.conf" {
+     m_aAlwaysActiveLabels {
+      SCR_EditorContentBrowserActiveDisplayLabel "{624829CA42628B07}" {
+       m_iLabel STATIC_EDEN_AIRPORT
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 4900.953 28.595 11787.412
+}
